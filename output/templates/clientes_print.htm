@@ -1,0 +1,214 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+	</head>
+
+	<body class="{$stylename} function-print" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		<DIV class="bs-top">
+        
+
+{BEGIN container_pdf}
+<div {$pdf_chiddenattr} data-pageid="{$pageid}" data-container="pdf" class="   col-md-12 "> 
+
+{BEGIN printbuttons}
+
+{END printbuttons}
+
+
+
+</div>
+{END container_pdf}
+
+
+
+{BEGIN container_master}
+<div {$master_chiddenattr} data-pageid="{$pageid}" data-container="master" class="    "> 
+
+{BEGIN mastertable_block}
+<div class="panel panel-info table-panel">
+	<div class="panel-heading">
+		{$master_heading}
+	</div>
+	<div class="panel-body">
+		{$showmasterfile}
+		
+	</div>
+</div>
+
+{END mastertable_block}
+
+
+
+</div>
+{END container_master}
+
+
+
+{BEGIN container_pageheader}
+<div {$pageheader_chiddenattr} data-pageid="{$pageid}" data-container="pageheader" class="    "> 
+
+{BEGIN printheader}
+	<h2 {$printheader_hiddenattr} data-pageid="{$pageid}" data-brick="printheader" >{$pagetitlelabel clientes print}</h2>
+	{BEGIN printtabheader}<h4>{$printtabheader_text}</h4>{END printtabheader}
+
+{END printheader}
+
+
+{BEGIN page_number}
+<span>Página <span class="rp-pageno">{$pageno}</span> / <span class="rp-pagecount">{$pagecount}</span></span>
+{END page_number}
+
+
+
+</div>
+{END container_pageheader}
+
+
+
+{BEGIN container_grid}
+
+
+{BEGIN grid_block}
+	<table class="table table-bordered rp-maintable" {$printgrid_hiddenattr} data-pageid="{$pageid}" data-brick="printgrid" >
+	<thead>
+	{BEGIN grid_header}
+		<tr class="{$gridHeader_class}" >
+		{BEGIN record_header}
+			{BEGIN id_fieldheadercolumn}
+			<th class="{$id_class}" {$id_style}  data-field="id">
+				{$label clientes id}
+			</th>
+			{END id_fieldheadercolumn}
+			{BEGIN persona_id_fieldheadercolumn}
+			<th class="{$persona_id_class}" {$persona_id_style}  data-field="persona_id">
+				{$label clientes persona_id}
+			</th>
+			{END persona_id_fieldheadercolumn}
+			{BEGIN empresa_id_fieldheadercolumn}
+			<th class="{$empresa_id_class}" {$empresa_id_style}  data-field="empresa_id">
+				{$label clientes empresa_id}
+			</th>
+			{END empresa_id_fieldheadercolumn}
+			{BEGIN creado_por_fieldheadercolumn}
+			<th class="{$creado_por_class}" {$creado_por_style}  data-field="creado_por">
+				{$label clientes creado_por}
+			</th>
+			{END creado_por_fieldheadercolumn}
+			{BEGIN actualizado_por_fieldheadercolumn}
+			<th class="{$actualizado_por_class}" {$actualizado_por_style}  data-field="actualizado_por">
+				{$label clientes actualizado_por}
+			</th>
+			{END actualizado_por_fieldheadercolumn}
+			{BEGIN creado_fieldheadercolumn}
+			<th class="{$creado_class}" {$creado_style}  data-field="creado">
+				{$label clientes creado}
+			</th>
+			{END creado_fieldheadercolumn}
+			{BEGIN actualizado_fieldheadercolumn}
+			<th class="{$actualizado_class}" {$actualizado_style}  data-field="actualizado">
+				{$label clientes actualizado}
+			</th>
+			{END actualizado_fieldheadercolumn}
+			{BEGIN endrecordheader_block}
+			<th class="rnr-cs">&nbsp;</th>
+			{END endrecordheader_block}
+		{END record_header}
+		</tr>
+	{END grid_header}
+	</thead>
+	
+	<tbody>	
+	{BEGIN grid_row}
+		<tr class="{$rowclass}" {$rowattrs} {$rowstyle}>
+		{BEGIN grid_record}
+			{BEGIN id_fieldcolumn}
+			<td  class="{$id_class}" {$id_style} {$recordattrs}>
+				{$id_value}
+			</td>
+			{END id_fieldcolumn}
+			{BEGIN persona_id_fieldcolumn}
+			<td  class="{$persona_id_class}" {$persona_id_style} {$recordattrs}>
+				{$persona_id_value}
+			</td>
+			{END persona_id_fieldcolumn}
+			{BEGIN empresa_id_fieldcolumn}
+			<td  class="{$empresa_id_class}" {$empresa_id_style} {$recordattrs}>
+				{$empresa_id_value}
+			</td>
+			{END empresa_id_fieldcolumn}
+			{BEGIN creado_por_fieldcolumn}
+			<td  class="{$creado_por_class}" {$creado_por_style} {$recordattrs}>
+				{$creado_por_value}
+			</td>
+			{END creado_por_fieldcolumn}
+			{BEGIN actualizado_por_fieldcolumn}
+			<td  class="{$actualizado_por_class}" {$actualizado_por_style} {$recordattrs}>
+				{$actualizado_por_value}
+			</td>
+			{END actualizado_por_fieldcolumn}
+			{BEGIN creado_fieldcolumn}
+			<td  class="{$creado_class}" {$creado_style} {$recordattrs}>
+				{$creado_value}
+			</td>
+			{END creado_fieldcolumn}
+			{BEGIN actualizado_fieldcolumn}
+			<td  class="{$actualizado_class}" {$actualizado_style} {$recordattrs}>
+				{$actualizado_value}
+			</td>
+			{END actualizado_fieldcolumn}
+			{BEGIN endrecord_block}
+			<td class="rnr-cs" {$endrecordblock_attrs}>&nbsp;</td>
+			{END endrecord_block}
+		{END grid_record}
+		</tr>
+{END grid_row}
+	</tbody>
+
+</table>
+
+{END grid_block}
+
+
+
+{END container_grid}
+
+
+		</div>
+		<div class="bs-middle ">
+			<div class="bs-topmiddle">
+				
+			</div>
+			<div class="bs-left" {$blockattr_left}>
+				
+			</div>
+			<div class="bs-center">
+				
+			</div>
+			<div class="bs-right">
+				
+			</div>
+		</div>
+		<DIV class="bs-bottom">
+        
+		</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

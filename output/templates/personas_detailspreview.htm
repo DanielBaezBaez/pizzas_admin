@@ -1,0 +1,65 @@
+<div {$pageattrs}>
+
+{BEGIN container_dcount}
+<div {$dcount_chiddenattr} data-pageid="{$pageid}" data-container="dcount" class="    "> 
+
+
+<span {$bsdetailspreviewcount_hiddenattr} data-pageid="{$pageid}" data-brick="bsdetailspreviewcount">Detalles encontrados: <strong>{$row_count}</strong></span>
+
+
+
+
+
+</div>
+{END container_dcount}
+
+
+
+{BEGIN container_detailspreviewgrid}
+
+
+{BEGIN details_data}
+<table class="table striped">
+{BEGIN details_row_header}
+	<thead>
+		<tr class="{$gridHeader_class}" >
+			<th class="{$nombre_class}">{$label personas nombre}</th>
+			<th class="{$apellido_class}">{$label personas apellido}</th>
+			<th class="{$celular_class}">{$label personas celular}</th>
+			<th class="{$cedula_class}">{$label personas cedula}</th>
+			<th class="{$direccion_class}">{$label personas direccion}</th>
+			<th class="{$email_class}">{$label personas email}</th>
+			<th class="{$creado_por_class}">{$label personas creado_por}</th>
+			<th class="{$empresa_id_class}">{$label personas empresa_id}</th>
+			<th class="{$actualizado_por_class}">{$label personas actualizado_por}</th>
+			<th class="{$creado_class}">{$label personas creado}</th>
+			<th class="{$actualizado_class}">{$label personas actualizado}</th>
+		</tr>
+	</thead>
+{END details_row_header}
+	<tbody>
+{BEGIN details_row}
+		<tr>
+			<td class="{$nombre_class}">{$nombre_value}</td>
+			<td class="{$apellido_class}">{$apellido_value}</td>
+			<td class="{$celular_class}">{$celular_value}</td>
+			<td class="{$cedula_class}">{$cedula_value}</td>
+			<td class="{$direccion_class}">{$direccion_value}</td>
+			<td class="{$email_class}">{$email_value}</td>
+			<td class="{$creado_por_class}">{$creado_por_value}</td>
+			<td class="{$empresa_id_class}">{$empresa_id_value}</td>
+			<td class="{$actualizado_por_class}">{$actualizado_por_value}</td>
+			<td class="{$creado_class}">{$creado_value}</td>
+			<td class="{$actualizado_class}">{$actualizado_value}</td>
+		</tr>
+{END details_row}	
+	</tbody>
+</table>
+
+{END details_data}
+
+
+
+{END container_detailspreviewgrid}
+
+</div>

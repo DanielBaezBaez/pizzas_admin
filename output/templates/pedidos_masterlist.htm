@@ -1,0 +1,103 @@
+<div {$pageattrs}>
+
+{BEGIN container_column}
+<div class="rnr-c rnr-ch rnr-c-column">
+
+{BEGIN masterlist_title}
+<div  class="style1 rnr-bl rnr-b-masterlistheader {$brickclass_masterlistheader}"><a {$backtomasterlink_attrs} class="btn btn-link btn-xs">Volver a {$backtomasterlink_caption}</a><span>{$pagetitlelabel pedidos masterlist}</span></div>
+{END masterlist_title}
+
+<div class="rnr-hfiller"></div>
+</div>
+{END container_column}
+
+
+
+{BEGIN container_mastergrid}
+
+
+
+	<style>
+	.bs-gridcell[data-field=id]:before {
+		content: "{$label pedidos id}";
+	}
+	.bs-gridcell[data-field=fecha]:before {
+		content: "{$label pedidos fecha}";
+	}
+	.bs-gridcell[data-field=latitud]:before {
+		content: "{$label pedidos latitud}";
+	}
+	.bs-gridcell[data-field=longitud]:before {
+		content: "{$label pedidos longitud}";
+	}
+	.bs-gridcell[data-field=delivery]:before {
+		content: "{$label pedidos delivery}";
+	}
+	.bs-gridcell[data-field=total]:before {
+		content: "{$label pedidos total}";
+	}
+	.bs-gridcell[data-field=estado_id]:before {
+		content: "{$label pedidos estado_id}";
+	}
+	.bs-gridcell[data-field=plataforma]:before {
+		content: "{$label pedidos plataforma}";
+	}
+	.bs-gridcell[data-field=observacion]:before {
+		content: "{$label pedidos observacion}";
+	}
+	.bs-gridcell[data-field=empresa_id]:before {
+		content: "{$label pedidos empresa_id}";
+	}
+	.bs-gridcell[data-field=user_id]:before {
+		content: "{$label pedidos user_id}";
+	}
+	.bs-gridcell[data-field=creado_por]:before {
+		content: "{$label pedidos creado_por}";
+	}
+	.bs-gridcell[data-field=actualizado_por]:before {
+		content: "{$label pedidos actualizado_por}";
+	}
+	.bs-gridcell[data-field=creado]:before {
+		content: "{$label pedidos creado}";
+	}
+	.bs-gridcell[data-field=actualizado]:before {
+		content: "{$label pedidos actualizado}";
+	}
+</style>
+<table {$masterlistgrid_hiddenattr} data-pageid="{$pageid}" data-brick="masterlistgrid" class="table rnr-b-mastergridfields rnr-gridtable bs-flexgrid" >
+		<thead>
+		<tr>
+			<th class="{$fecha_class}">{$label pedidos fecha}</th>
+			<th class="{$latitud_class}">{$label pedidos latitud}</th>
+			<th class="{$longitud_class}">{$label pedidos longitud}</th>
+			<th class="{$delivery_class}">{$label pedidos delivery}</th>
+			<th class="{$total_class}">{$label pedidos total}</th>
+			<th class="{$estado_id_class}">{$label pedidos estado_id}</th>
+			<th class="{$plataforma_class}">{$label pedidos plataforma}</th>
+			<th class="{$observacion_class}">{$label pedidos observacion}</th>
+			<th class="{$user_id_class}">{$label pedidos user_id}</th>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<tr>
+			<td class="{$fecha_class} bs-gridcell" data-field=fecha>{$fecha_mastervalue}</td>
+			<td class="{$latitud_class} bs-gridcell" data-field=latitud>{$latitud_mastervalue}</td>
+			<td class="{$longitud_class} bs-gridcell" data-field=longitud>{$longitud_mastervalue}</td>
+			<td class="{$delivery_class} bs-gridcell" data-field=delivery>{$delivery_mastervalue}</td>
+			<td class="{$total_class} bs-gridcell" data-field=total>{$total_mastervalue}</td>
+			<td class="{$estado_id_class} bs-gridcell" data-field=estado_id>{$estado_id_mastervalue}</td>
+			<td class="{$plataforma_class} bs-gridcell" data-field=plataforma>{$plataforma_mastervalue}</td>
+			<td class="{$observacion_class} bs-gridcell" data-field=observacion>{$observacion_mastervalue}</td>
+			<td class="{$user_id_class} bs-gridcell" data-field=user_id>{$user_id_mastervalue}</td>
+		</tr>
+	</tbody>
+
+</table> 
+
+
+
+
+{END container_mastergrid}
+
+</div>

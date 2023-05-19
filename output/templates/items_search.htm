@@ -1,0 +1,365 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+	</head>
+
+	<body class="{$stylename} function-search" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		<DIV class="bs-top">
+        
+
+{BEGIN container_searchpage}
+<div {$searchpage_chiddenattr} data-pageid="{$pageid}" data-container="searchpage" class="container    "> 
+
+
+
+
+{BEGIN container_header}
+<div {$header_chiddenattr} data-pageid="{$pageid}" data-container="header" class="   col-md-6 col-md-offset-3"> 
+
+{BEGIN searchheader}
+	<h2 {$bssearchheader_hiddenattr} data-pageid="{$pageid}" data-brick="bssearchheader" >{$pagetitlelabel items search}</h2>
+	{BEGIN printtabheader}<h4>{$printtabheader_text}</h4>{END printtabheader}
+
+{END searchheader}
+
+
+
+</div>
+{END container_header}
+
+
+
+
+
+
+</div>
+{END container_searchpage}
+
+
+
+{BEGIN container_fields}
+<div {$fields_chiddenattr} data-pageid="{$pageid}" data-container="fields" class="   col-md-12 "> 
+
+
+<div {$bssearchfields_hiddenattr} data-pageid="{$pageid}" data-brick="bssearchfields" class="form-horizontal" role="form">
+<div class="container">
+	<div class="form-group">
+		<div class="col-md-12" >
+			&nbsp;
+		</div>
+	</div>
+</div>
+	{BEGIN id_fieldblock}		
+	<div class="container {$fielddispclass_id}" data-fieldname="id">
+		<div class="form-group">
+			<label class="col-md-2 control-label" for="{$labelfor_id}">
+				{$label items id}
+			</label>
+			<div class="col-md-2 bs-srchoption" >
+				{$searchtype_id}
+			</div>
+			<div class="col-md-4" >
+				{$id_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$id_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END id_fieldblock}
+	{BEGIN descripcion_fieldblock}		
+	<div class="container {$fielddispclass_descripcion}" data-fieldname="descripcion">
+		<div class="form-group">
+			<label class="col-md-2 control-label" for="{$labelfor_descripcion}">
+				{$label items descripcion}
+			</label>
+			<div class="col-md-2 bs-srchoption" >
+				{$searchtype_descripcion}
+			</div>
+			<div class="col-md-4" >
+				{$descripcion_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$descripcion_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END descripcion_fieldblock}
+	{BEGIN ingredientes_principales_fieldblock}		
+	<div class="container {$fielddispclass_ingredientes_principales}" data-fieldname="ingredientes_principales">
+		<div class="form-group">
+			<label class="col-md-2 control-label" for="{$labelfor_ingredientes_principales}">
+				{$label items ingredientes_principales}
+			</label>
+			<div class="col-md-2 bs-srchoption" >
+				{$searchtype_ingredientes_principales}
+			</div>
+			<div class="col-md-4" >
+				{$ingredientes_principales_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$ingredientes_principales_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END ingredientes_principales_fieldblock}
+	{BEGIN url_image_fieldblock}		
+	<div class="container {$fielddispclass_url_image}" data-fieldname="url_image">
+		<div class="form-group">
+			<label class="col-md-2 control-label" for="{$labelfor_url_image}">
+				{$label items url_image}
+			</label>
+			<div class="col-md-2 bs-srchoption" >
+				{$searchtype_url_image}
+			</div>
+			<div class="col-md-4" >
+				{$url_image_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$url_image_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END url_image_fieldblock}
+	{BEGIN costo_fieldblock}		
+	<div class="container {$fielddispclass_costo}" data-fieldname="costo">
+		<div class="form-group">
+			<label class="col-md-2 control-label" for="{$labelfor_costo}">
+				{$label items costo}
+			</label>
+			<div class="col-md-2 bs-srchoption" >
+				{$searchtype_costo}
+			</div>
+			<div class="col-md-4" >
+				{$costo_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$costo_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END costo_fieldblock}
+	{BEGIN detalle_fieldblock}		
+	<div class="container {$fielddispclass_detalle}" data-fieldname="detalle">
+		<div class="form-group">
+			<label class="col-md-2 control-label" for="{$labelfor_detalle}">
+				{$label items detalle}
+			</label>
+			<div class="col-md-2 bs-srchoption" >
+				{$searchtype_detalle}
+			</div>
+			<div class="col-md-4" >
+				{$detalle_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$detalle_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END detalle_fieldblock}
+	{BEGIN tipo_item_id_fieldblock}		
+	<div class="container {$fielddispclass_tipo_item_id}" data-fieldname="tipo_item_id">
+		<div class="form-group">
+			<label class="col-md-2 control-label" for="{$labelfor_tipo_item_id}">
+				{$label items tipo_item_id}
+			</label>
+			<div class="col-md-2 bs-srchoption" >
+				{$searchtype_tipo_item_id}
+			</div>
+			<div class="col-md-4" >
+				{$tipo_item_id_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$tipo_item_id_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END tipo_item_id_fieldblock}
+	{BEGIN empresa_id_fieldblock}		
+	<div class="container {$fielddispclass_empresa_id}" data-fieldname="empresa_id">
+		<div class="form-group">
+			<label class="col-md-2 control-label" for="{$labelfor_empresa_id}">
+				{$label items empresa_id}
+			</label>
+			<div class="col-md-2 bs-srchoption" >
+				{$searchtype_empresa_id}
+			</div>
+			<div class="col-md-4" >
+				{$empresa_id_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$empresa_id_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END empresa_id_fieldblock}
+	{BEGIN creado_por_fieldblock}		
+	<div class="container {$fielddispclass_creado_por}" data-fieldname="creado_por">
+		<div class="form-group">
+			<label class="col-md-2 control-label" for="{$labelfor_creado_por}">
+				{$label items creado_por}
+			</label>
+			<div class="col-md-2 bs-srchoption" >
+				{$searchtype_creado_por}
+			</div>
+			<div class="col-md-4" >
+				{$creado_por_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$creado_por_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END creado_por_fieldblock}
+	{BEGIN actualizado_por_fieldblock}		
+	<div class="container {$fielddispclass_actualizado_por}" data-fieldname="actualizado_por">
+		<div class="form-group">
+			<label class="col-md-2 control-label" for="{$labelfor_actualizado_por}">
+				{$label items actualizado_por}
+			</label>
+			<div class="col-md-2 bs-srchoption" >
+				{$searchtype_actualizado_por}
+			</div>
+			<div class="col-md-4" >
+				{$actualizado_por_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$actualizado_por_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END actualizado_por_fieldblock}
+	{BEGIN creado_fieldblock}		
+	<div class="container {$fielddispclass_creado}" data-fieldname="creado">
+		<div class="form-group">
+			<label class="col-md-2 control-label" for="{$labelfor_creado}">
+				{$label items creado}
+			</label>
+			<div class="col-md-2 bs-srchoption" >
+				{$searchtype_creado}
+			</div>
+			<div class="col-md-4" >
+				{$creado_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$creado_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END creado_fieldblock}
+	{BEGIN actualizado_fieldblock}		
+	<div class="container {$fielddispclass_actualizado}" data-fieldname="actualizado">
+		<div class="form-group">
+			<label class="col-md-2 control-label" for="{$labelfor_actualizado}">
+				{$label items actualizado}
+			</label>
+			<div class="col-md-2 bs-srchoption" >
+				{$searchtype_actualizado}
+			</div>
+			<div class="col-md-4" >
+				{$actualizado_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$actualizado_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END actualizado_fieldblock}
+</div>
+
+
+
+
+</div>
+{END container_fields}
+
+
+
+{BEGIN container_bottombuttons}
+<div {$bottombuttons_chiddenattr} data-pageid="{$pageid}" data-container="bottombuttons" class="container form-horizontal   "> 
+
+
+
+
+{BEGIN container_bbuttons}
+<div {$bbuttons_chiddenattr} data-pageid="{$pageid}" data-container="bbuttons" class=" form-group   "> 
+
+
+
+
+{BEGIN container_leftbuttons}
+<div {$leftbuttons_chiddenattr} data-pageid="{$pageid}" data-container="leftbuttons" class="   col-md-10 col-md-offset-2"> 
+
+{BEGIN searchbuttons}
+{BEGIN search_button}
+<button class="btn btn-primary" {$searchbutton_attrs}>Buscar</button>
+{END search_button} 
+{BEGIN reset_button}
+<button class="btn btn-default" {$resetbutton_attrs}>Reiniciar</button>
+{END reset_button}
+{BEGIN back_button}
+<button class="btn btn-default" {$backbutton_attrs}>Volver a la lista</button>
+{END back_button}
+{END searchbuttons}
+
+
+
+</div>
+{END container_leftbuttons}
+
+
+
+
+
+
+</div>
+{END container_bbuttons}
+
+
+
+
+
+
+</div>
+{END container_bottombuttons}
+
+
+		</div>
+		<div class="bs-middle ">
+			<div class="bs-topmiddle">
+				
+			</div>
+			<div class="bs-left" {$blockattr_left}>
+				
+			</div>
+			<div class="bs-center">
+				
+			</div>
+			<div class="bs-right">
+				
+			</div>
+		</div>
+		<DIV class="bs-bottom">
+        
+		</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

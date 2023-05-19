@@ -1,0 +1,88 @@
+<div {$pageattrs}>
+
+{BEGIN container_column}
+<div class="rnr-c rnr-ch rnr-c-column">
+
+{BEGIN masterlist_title}
+<div  class="style1 rnr-bl rnr-b-masterlistheader {$brickclass_masterlistheader}"><a {$backtomasterlink_attrs} class="btn btn-link btn-xs">Volver a {$backtomasterlink_caption}</a><span>{$pagetitlelabel personas masterlist}</span></div>
+{END masterlist_title}
+
+<div class="rnr-hfiller"></div>
+</div>
+{END container_column}
+
+
+
+{BEGIN container_mastergrid}
+
+
+
+	<style>
+	.bs-gridcell[data-field=id]:before {
+		content: "{$label personas id}";
+	}
+	.bs-gridcell[data-field=nombre]:before {
+		content: "{$label personas nombre}";
+	}
+	.bs-gridcell[data-field=apellido]:before {
+		content: "{$label personas apellido}";
+	}
+	.bs-gridcell[data-field=celular]:before {
+		content: "{$label personas celular}";
+	}
+	.bs-gridcell[data-field=cedula]:before {
+		content: "{$label personas cedula}";
+	}
+	.bs-gridcell[data-field=direccion]:before {
+		content: "{$label personas direccion}";
+	}
+	.bs-gridcell[data-field=email]:before {
+		content: "{$label personas email}";
+	}
+	.bs-gridcell[data-field=creado_por]:before {
+		content: "{$label personas creado_por}";
+	}
+	.bs-gridcell[data-field=empresa_id]:before {
+		content: "{$label personas empresa_id}";
+	}
+	.bs-gridcell[data-field=actualizado_por]:before {
+		content: "{$label personas actualizado_por}";
+	}
+	.bs-gridcell[data-field=creado]:before {
+		content: "{$label personas creado}";
+	}
+	.bs-gridcell[data-field=actualizado]:before {
+		content: "{$label personas actualizado}";
+	}
+</style>
+<table {$masterlistgrid_hiddenattr} data-pageid="{$pageid}" data-brick="masterlistgrid" class="table rnr-b-mastergridfields rnr-gridtable bs-flexgrid" >
+		<thead>
+		<tr>
+			<th class="{$nombre_class}">{$label personas nombre}</th>
+			<th class="{$apellido_class}">{$label personas apellido}</th>
+			<th class="{$celular_class}">{$label personas celular}</th>
+			<th class="{$cedula_class}">{$label personas cedula}</th>
+			<th class="{$direccion_class}">{$label personas direccion}</th>
+			<th class="{$email_class}">{$label personas email}</th>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<tr>
+			<td class="{$nombre_class} bs-gridcell" data-field=nombre>{$nombre_mastervalue}</td>
+			<td class="{$apellido_class} bs-gridcell" data-field=apellido>{$apellido_mastervalue}</td>
+			<td class="{$celular_class} bs-gridcell" data-field=celular>{$celular_mastervalue}</td>
+			<td class="{$cedula_class} bs-gridcell" data-field=cedula>{$cedula_mastervalue}</td>
+			<td class="{$direccion_class} bs-gridcell" data-field=direccion>{$direccion_mastervalue}</td>
+			<td class="{$email_class} bs-gridcell" data-field=email>{$email_mastervalue}</td>
+		</tr>
+	</tbody>
+
+</table> 
+
+
+
+
+{END container_mastergrid}
+
+</div>

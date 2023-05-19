@@ -1,0 +1,88 @@
+<div {$pageattrs}>
+
+{BEGIN container_column}
+<div class="rnr-c rnr-ch rnr-c-column">
+
+{BEGIN masterlist_title}
+<div  class="style1 rnr-bl rnr-b-masterlistheader {$brickclass_masterlistheader}"><a {$backtomasterlink_attrs} class="btn btn-link btn-xs">Volver a {$backtomasterlink_caption}</a><span>{$pagetitlelabel items masterlist}</span></div>
+{END masterlist_title}
+
+<div class="rnr-hfiller"></div>
+</div>
+{END container_column}
+
+
+
+{BEGIN container_mastergrid}
+
+
+
+	<style>
+	.bs-gridcell[data-field=id]:before {
+		content: "{$label items id}";
+	}
+	.bs-gridcell[data-field=descripcion]:before {
+		content: "{$label items descripcion}";
+	}
+	.bs-gridcell[data-field=ingredientes_principales]:before {
+		content: "{$label items ingredientes_principales}";
+	}
+	.bs-gridcell[data-field=url_image]:before {
+		content: "{$label items url_image}";
+	}
+	.bs-gridcell[data-field=costo]:before {
+		content: "{$label items costo}";
+	}
+	.bs-gridcell[data-field=detalle]:before {
+		content: "{$label items detalle}";
+	}
+	.bs-gridcell[data-field=tipo_item_id]:before {
+		content: "{$label items tipo_item_id}";
+	}
+	.bs-gridcell[data-field=empresa_id]:before {
+		content: "{$label items empresa_id}";
+	}
+	.bs-gridcell[data-field=creado_por]:before {
+		content: "{$label items creado_por}";
+	}
+	.bs-gridcell[data-field=actualizado_por]:before {
+		content: "{$label items actualizado_por}";
+	}
+	.bs-gridcell[data-field=creado]:before {
+		content: "{$label items creado}";
+	}
+	.bs-gridcell[data-field=actualizado]:before {
+		content: "{$label items actualizado}";
+	}
+</style>
+<table {$masterlistgrid_hiddenattr} data-pageid="{$pageid}" data-brick="masterlistgrid" class="table rnr-b-mastergridfields rnr-gridtable bs-flexgrid" >
+		<thead>
+		<tr>
+			<th class="{$descripcion_class}">{$label items descripcion}</th>
+			<th class="{$ingredientes_principales_class}">{$label items ingredientes_principales}</th>
+			<th class="{$url_image_class}">{$label items url_image}</th>
+			<th class="{$costo_class}">{$label items costo}</th>
+			<th class="{$detalle_class}">{$label items detalle}</th>
+			<th class="{$tipo_item_id_class}">{$label items tipo_item_id}</th>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<tr>
+			<td class="{$descripcion_class} bs-gridcell" data-field=descripcion>{$descripcion_mastervalue}</td>
+			<td class="{$ingredientes_principales_class} bs-gridcell" data-field=ingredientes_principales>{$ingredientes_principales_mastervalue}</td>
+			<td class="{$url_image_class} bs-gridcell" data-field=url_image>{$url_image_mastervalue}</td>
+			<td class="{$costo_class} bs-gridcell" data-field=costo>{$costo_mastervalue}</td>
+			<td class="{$detalle_class} bs-gridcell" data-field=detalle>{$detalle_mastervalue}</td>
+			<td class="{$tipo_item_id_class} bs-gridcell" data-field=tipo_item_id>{$tipo_item_id_mastervalue}</td>
+		</tr>
+	</tbody>
+
+</table> 
+
+
+
+
+{END container_mastergrid}
+
+</div>
