@@ -1,0 +1,26 @@
+.rnr-horizontal-lookup {
+	margin-top:8px;
+	height:32px;
+}
+
+select.form-control[size="1"] {
+ height: 40px; 
+}
+
+.chosen-container-multi .chosen-choices.chosen-choices {
+ min-height: 40px !important; 
+     border: 1px solid #dddddd;
+
+ }
+
+.chosen-container-multi .chosen-choices .search-field.search-field input[type="text"] {
+	height: 38px;
+}
+
+.chosen-container-multi .chosen-choices .search-choice.search-choice {
+	line-height: 20px;
+}
+
+.chosen-container-multi .chosen-choices .search-choice .search-choice-close.search-choice-close {
+	top:9px;
+}

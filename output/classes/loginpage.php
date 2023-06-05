@@ -673,6 +673,10 @@ class LoginPage extends RunnerPage
 		$cipherer = RunnerCipherer::getForLogin( $loginSet );
 		$bcrypted = ( $globalSettings["bEncryptPasswords"] && $globalSettings["nEncryptPasswordMethod"] == 0 );
 		$originalPassword = $password;
+		if( $globalSettings["bEncryptPasswords"] && !$this->fromFacebook && !$cipherer->isFieldEncrypted( $cPasswordField ) )
+		{
+			$password = $this->getPasswordHash( $password );//md 5 or bcrypt
+		}
 		
 		$strSQL = $this->getSelectSQL( $skipPasswordCheck || $bcrypted, $username, $password, $loginSet, $cipherer );	
 	 	$data = $cipherer->DecryptFetchedArray( $this->connection->query( $strSQL )->fetchAssoc() );

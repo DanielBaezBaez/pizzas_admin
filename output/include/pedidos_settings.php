@@ -50,7 +50,7 @@ if(mlang_getcurrentlang()=="Spanish")
 	$fieldLabelspedidos["Spanish"]["observacion"] = "Observacion";
 	$fieldToolTipspedidos["Spanish"]["observacion"] = "";
 	$placeHolderspedidos["Spanish"]["observacion"] = "";
-	$fieldLabelspedidos["Spanish"]["empresa_id"] = "Empresa Id";
+	$fieldLabelspedidos["Spanish"]["empresa_id"] = "Empresa";
 	$fieldToolTipspedidos["Spanish"]["empresa_id"] = "";
 	$placeHolderspedidos["Spanish"]["empresa_id"] = "";
 	$fieldLabelspedidos["Spanish"]["user_id"] = "Usuario";

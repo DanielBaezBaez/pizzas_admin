@@ -43,8 +43,8 @@ function getMenuNodes_main($menuNodesObject)
 	$menuNode["pageType"] = "List";//
 	$menuNode["openType"] = "None";
 	
-	$menuNode["icon"] = "";
-	$menuNode["iconType"] = "0";
+	$menuNode["icon"] = "glyphicon-cog";
+	$menuNode["iconType"] = "2";
 
 			$menuNode["color"] = "";
 	
@@ -67,8 +67,8 @@ function getMenuNodes_main($menuNodesObject)
 	$menuNode["pageType"] = "List";//
 	$menuNode["openType"] = "None";
 	
-	$menuNode["icon"] = "";
-	$menuNode["iconType"] = "0";
+	$menuNode["icon"] = "glyphicon-tags";
+	$menuNode["iconType"] = "2";
 
 			$menuNode["color"] = "";
 	
@@ -91,8 +91,8 @@ function getMenuNodes_main($menuNodesObject)
 	$menuNode["pageType"] = "List";//
 	$menuNode["openType"] = "None";
 	
-	$menuNode["icon"] = "";
-	$menuNode["iconType"] = "0";
+	$menuNode["icon"] = "glyphicon-book";
+	$menuNode["iconType"] = "2";
 
 			$menuNode["color"] = "";
 	
@@ -139,8 +139,8 @@ function getMenuNodes_main($menuNodesObject)
 	$menuNode["pageType"] = "List";//
 	$menuNode["openType"] = "None";
 	
-	$menuNode["icon"] = "";
-	$menuNode["iconType"] = "0";
+	$menuNode["icon"] = "glyphicon-shopping-cart";
+	$menuNode["iconType"] = "2";
 
 			$menuNode["color"] = "";
 	
@@ -163,8 +163,8 @@ function getMenuNodes_main($menuNodesObject)
 	$menuNode["pageType"] = "List";//
 	$menuNode["openType"] = "None";
 	
-	$menuNode["icon"] = "";
-	$menuNode["iconType"] = "0";
+	$menuNode["icon"] = "glyphicon-folder-close";
+	$menuNode["iconType"] = "2";
 
 			$menuNode["color"] = "";
 	
@@ -187,8 +187,8 @@ function getMenuNodes_main($menuNodesObject)
 	$menuNode["pageType"] = "List";//
 	$menuNode["openType"] = "None";
 	
-	$menuNode["icon"] = "";
-	$menuNode["iconType"] = "0";
+	$menuNode["icon"] = "glyphicon-scissors";
+	$menuNode["iconType"] = "2";
 
 			$menuNode["color"] = "";
 	
@@ -235,8 +235,8 @@ function getMenuNodes_main($menuNodesObject)
 	$menuNode["pageType"] = "List";//
 	$menuNode["openType"] = "None";
 	
-	$menuNode["icon"] = "";
-	$menuNode["iconType"] = "0";
+	$menuNode["icon"] = "glyphicon-cutlery";
+	$menuNode["iconType"] = "2";
 
 			$menuNode["color"] = "";
 	
@@ -259,8 +259,8 @@ function getMenuNodes_main($menuNodesObject)
 	$menuNode["pageType"] = "List";//
 	$menuNode["openType"] = "None";
 	
-	$menuNode["icon"] = "";
-	$menuNode["iconType"] = "0";
+	$menuNode["icon"] = "glyphicon-check";
+	$menuNode["iconType"] = "2";
 
 			$menuNode["color"] = "";
 	
@@ -307,8 +307,8 @@ function getMenuNodes_main($menuNodesObject)
 	$menuNode["pageType"] = "List";//
 	$menuNode["openType"] = "None";
 	
-	$menuNode["icon"] = "";
-	$menuNode["iconType"] = "0";
+	$menuNode["icon"] = "glyphicon-list-alt";
+	$menuNode["iconType"] = "2";
 
 			$menuNode["color"] = "";
 	
@@ -331,8 +331,8 @@ function getMenuNodes_main($menuNodesObject)
 	$menuNode["pageType"] = "List";//
 	$menuNode["openType"] = "None";
 	
-	$menuNode["icon"] = "";
-	$menuNode["iconType"] = "0";
+	$menuNode["icon"] = "glyphicon-text-width";
+	$menuNode["iconType"] = "2";
 
 			$menuNode["color"] = "";
 	
@@ -379,8 +379,8 @@ function getMenuNodes_main($menuNodesObject)
 	$menuNode["pageType"] = "List";//
 	$menuNode["openType"] = "None";
 	
-	$menuNode["icon"] = "";
-	$menuNode["iconType"] = "0";
+	$menuNode["icon"] = "glyphicon-user";
+	$menuNode["iconType"] = "2";
 
 			$menuNode["color"] = "";
 	
@@ -403,8 +403,8 @@ function getMenuNodes_main($menuNodesObject)
 	$menuNode["pageType"] = "List";//
 	$menuNode["openType"] = "None";
 	
-	$menuNode["icon"] = "";
-	$menuNode["iconType"] = "0";
+	$menuNode["icon"] = "glyphicon-user";
+	$menuNode["iconType"] = "2";
 
 			$menuNode["color"] = "";
 	
@@ -427,8 +427,8 @@ function getMenuNodes_main($menuNodesObject)
 	$menuNode["pageType"] = "List";//
 	$menuNode["openType"] = "None";
 	
-	$menuNode["icon"] = "";
-	$menuNode["iconType"] = "0";
+	$menuNode["icon"] = "glyphicon-text-width";
+	$menuNode["iconType"] = "2";
 
 			$menuNode["color"] = "";
 	
@@ -451,8 +451,8 @@ function getMenuNodes_main($menuNodesObject)
 	$menuNode["pageType"] = "List";//
 	$menuNode["openType"] = "None";
 	
-	$menuNode["icon"] = "";
-	$menuNode["iconType"] = "0";
+	$menuNode["icon"] = "glyphicon-user";
+	$menuNode["iconType"] = "2";
 
 			$menuNode["color"] = "";
 	
@@ -475,8 +475,8 @@ function getMenuNodes_main($menuNodesObject)
 	$menuNode["pageType"] = "List";//
 	$menuNode["openType"] = "None";
 	
-	$menuNode["icon"] = "";
-	$menuNode["iconType"] = "0";
+	$menuNode["icon"] = "glyphicon-user";
+	$menuNode["iconType"] = "2";
 
 			$menuNode["color"] = "";
 	
@@ -499,8 +499,8 @@ function getMenuNodes_main($menuNodesObject)
 	$menuNode["pageType"] = "List";//
 	$menuNode["openType"] = "None";
 	
-	$menuNode["icon"] = "";
-	$menuNode["iconType"] = "0";
+	$menuNode["icon"] = "glyphicon-user";
+	$menuNode["iconType"] = "2";
 
 			$menuNode["color"] = "";
 	
@@ -547,8 +547,8 @@ function getMenuNodes_main($menuNodesObject)
 	$menuNode["pageType"] = "List";//
 	$menuNode["openType"] = "None";
 	
-	$menuNode["icon"] = "";
-	$menuNode["iconType"] = "0";
+	$menuNode["icon"] = "glyphicon-road";
+	$menuNode["iconType"] = "2";
 
 			$menuNode["color"] = "";
 	
@@ -571,8 +571,8 @@ function getMenuNodes_main($menuNodesObject)
 	$menuNode["pageType"] = "List";//
 	$menuNode["openType"] = "None";
 	
-	$menuNode["icon"] = "";
-	$menuNode["iconType"] = "0";
+	$menuNode["icon"] = "glyphicon-road";
+	$menuNode["iconType"] = "2";
 
 			$menuNode["color"] = "";
 	
@@ -595,8 +595,8 @@ function getMenuNodes_main($menuNodesObject)
 	$menuNode["pageType"] = "List";//
 	$menuNode["openType"] = "None";
 	
-	$menuNode["icon"] = "";
-	$menuNode["iconType"] = "0";
+	$menuNode["icon"] = "glyphicon-road";
+	$menuNode["iconType"] = "2";
 
 			$menuNode["color"] = "";
 	
@@ -619,8 +619,8 @@ function getMenuNodes_main($menuNodesObject)
 	$menuNode["pageType"] = "List";//
 	$menuNode["openType"] = "None";
 	
-	$menuNode["icon"] = "";
-	$menuNode["iconType"] = "0";
+	$menuNode["icon"] = "glyphicon-home";
+	$menuNode["iconType"] = "2";
 
 			$menuNode["color"] = "";
 	

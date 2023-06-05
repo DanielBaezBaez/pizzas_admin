@@ -29,7 +29,7 @@ if(mlang_getcurrentlang()=="Spanish")
 	$fieldLabelspaises["Spanish"]["descripcion"] = "Descripcion";
 	$fieldToolTipspaises["Spanish"]["descripcion"] = "";
 	$placeHolderspaises["Spanish"]["descripcion"] = "";
-	$fieldLabelspaises["Spanish"]["empresa_id"] = "Empresa Id";
+	$fieldLabelspaises["Spanish"]["empresa_id"] = "Empresa";
 	$fieldToolTipspaises["Spanish"]["empresa_id"] = "";
 	$placeHolderspaises["Spanish"]["empresa_id"] = "";
 	$fieldLabelspaises["Spanish"]["creado_por"] = "Creado Por";
@@ -271,7 +271,6 @@ $tdatapaises[".Keys"] = $tableKeyspaises;
 
 $tdatapaises[".listFields"] = array();
 $tdatapaises[".listFields"][] = "descripcion";
-$tdatapaises[".listFields"][] = "empresa_id";
 $tdatapaises[".listFields"][] = "creado_por";
 $tdatapaises[".listFields"][] = "actualizado_por";
 $tdatapaises[".listFields"][] = "creado";
@@ -578,8 +577,7 @@ $tdatapaises[".printFields"][] = "descripcion";
 	
 	
 			
-		$fdata["bListPage"] = true;
-
+	
 	
 	
 	
@@ -597,8 +595,7 @@ $tdatapaises[".printFields"][] = "descripcion";
 
 	
 	
-				$fdata["FieldPermissions"] = true;
-
+			
 				$fdata["UploadFolder"] = "files";
 
 //  Begin View Formats

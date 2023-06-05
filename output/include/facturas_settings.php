@@ -26,7 +26,7 @@ if(mlang_getcurrentlang()=="Spanish")
 	$fieldLabelsfacturas["Spanish"]["id"] = "Id";
 	$fieldToolTipsfacturas["Spanish"]["id"] = "";
 	$placeHoldersfacturas["Spanish"]["id"] = "";
-	$fieldLabelsfacturas["Spanish"]["empresa_id"] = "Empresa Id";
+	$fieldLabelsfacturas["Spanish"]["empresa_id"] = "Empresa";
 	$fieldToolTipsfacturas["Spanish"]["empresa_id"] = "";
 	$placeHoldersfacturas["Spanish"]["empresa_id"] = "";
 	$fieldLabelsfacturas["Spanish"]["creado_por"] = "Creado Por";

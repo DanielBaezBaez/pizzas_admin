@@ -31,7 +31,7 @@ $xt = new Xtempl();
 
 $layout = new TLayout("detailspreview_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "empresas_detailspreview";
 $layout->blocks["bare"] = array();
 $layout->containers["dcount"] = array();

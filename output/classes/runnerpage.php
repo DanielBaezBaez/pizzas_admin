@@ -1584,6 +1584,14 @@ class RunnerPage
 		return 0 + $value;
 	}
 
+	/**
+	 * @param String strPassword
+	 * @return String
+	 */
+	public function getPasswordHash( $strPassword )
+	{
+		return getPasswordHash( $strPassword );
+	}
 
 	/**
 	 * Makes assigns for admin

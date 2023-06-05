@@ -1,0 +1,14 @@
+[Thu May 25 09:43:43.459655 2023] [core:warn] [pid 12484:tid 624] AH00117: Ignoring deprecated use of DefaultType in line 21 of D:/PROYECTOS_PROPIOS/Pizzas/pizzas_admin/tmp/webserver.conf.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::97dd:95b7:f91d:3367. Set the 'ServerName' directive globally to suppress this message
+[Thu May 25 09:43:44.441467 2023] [mpm_winnt:notice] [pid 12484:tid 624] AH00455: Apache/2.4.10 (Win32) PHP/5.5.18 configured -- resuming normal operations
+[Thu May 25 09:43:44.441467 2023] [mpm_winnt:notice] [pid 12484:tid 624] AH00456: Apache Lounge VC11 Server built: Jul 17 2014 11:50:08
+[Thu May 25 09:43:44.441467 2023] [core:notice] [pid 12484:tid 624] AH00094: Command line: 'C:\\Program Files (x86)\\PHPRunner9.8\\EmbeddedServer\\bin\\httpd.exe -d C:/Program Files (x86)/PHPRunner9.8/EmbeddedServer -d C:\\Program Files (x86)\\PHPRunner9.8\\EmbeddedServer -f D:\\PROYECTOS_PROPIOS\\Pizzas\\pizzas_admin\\tmp\\webserver.conf'
+[Thu May 25 09:43:44.444430 2023] [mpm_winnt:notice] [pid 12484:tid 624] AH00418: Parent: Created child process 2160
+[Thu May 25 09:43:45.041146 2023] [core:warn] [pid 2160:tid 484] AH00117: Ignoring deprecated use of DefaultType in line 21 of D:/PROYECTOS_PROPIOS/Pizzas/pizzas_admin/tmp/webserver.conf.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::97dd:95b7:f91d:3367. Set the 'ServerName' directive globally to suppress this message
+[Thu May 25 09:43:45.910326 2023] [core:warn] [pid 2160:tid 484] AH00117: Ignoring deprecated use of DefaultType in line 21 of D:/PROYECTOS_PROPIOS/Pizzas/pizzas_admin/tmp/webserver.conf.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::97dd:95b7:f91d:3367. Set the 'ServerName' directive globally to suppress this message
+[Thu May 25 09:43:46.774943 2023] [mpm_winnt:notice] [pid 2160:tid 484] AH00354: Child: Starting 64 worker threads.
+[Thu May 25 12:35:00.163891 2023] [mpm_winnt:notice] [pid 12484:tid 624] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu May 25 12:35:02.191752 2023] [mpm_winnt:notice] [pid 2160:tid 484] AH00364: Child: All worker threads have exited.
+[Thu May 25 12:35:02.277822 2023] [mpm_winnt:notice] [pid 12484:tid 624] AH00430: Parent: Child process 2160 exited successfully.

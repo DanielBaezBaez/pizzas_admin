@@ -22,7 +22,7 @@ if( !Security::processPageSecurity( $strtablename, 'P' ) )
 
 $layout = new TLayout("print_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "empresas_print";
 $layout->blocks["top"] = array();
 $layout->containers["pdf"] = array();
@@ -70,7 +70,7 @@ $page_layouts["empresas_print"] = $layout;
 
 $layout = new TLayout("masterprint_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "users_masterprint";
 $layout->blocks["bare"] = array();
 $layout->containers["column"] = array();
@@ -99,7 +99,7 @@ $page_layouts["users_masterprint"] = $layout;
 
 $layout = new TLayout("print_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "barrios_print";
 $layout->blocks["top"] = array();
 $layout->containers["pdf"] = array();
@@ -146,7 +146,7 @@ $page_layouts["barrios_print"] = $layout;
 
 $layout = new TLayout("print_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "ciudades_print";
 $layout->blocks["top"] = array();
 $layout->containers["pdf"] = array();
@@ -193,7 +193,7 @@ $page_layouts["ciudades_print"] = $layout;
 
 $layout = new TLayout("print_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "clientes_print";
 $layout->blocks["top"] = array();
 $layout->containers["pdf"] = array();
@@ -240,7 +240,7 @@ $page_layouts["clientes_print"] = $layout;
 
 $layout = new TLayout("print_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "detalles_facturas_print";
 $layout->blocks["top"] = array();
 $layout->containers["pdf"] = array();
@@ -287,7 +287,7 @@ $page_layouts["detalles_facturas_print"] = $layout;
 
 $layout = new TLayout("print_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "detalles_pedidos_print";
 $layout->blocks["top"] = array();
 $layout->containers["pdf"] = array();
@@ -334,7 +334,7 @@ $page_layouts["detalles_pedidos_print"] = $layout;
 
 $layout = new TLayout("print_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "facturas_print";
 $layout->blocks["top"] = array();
 $layout->containers["pdf"] = array();
@@ -381,7 +381,7 @@ $page_layouts["facturas_print"] = $layout;
 
 $layout = new TLayout("print_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "insumos_print";
 $layout->blocks["top"] = array();
 $layout->containers["pdf"] = array();
@@ -428,7 +428,7 @@ $page_layouts["insumos_print"] = $layout;
 
 $layout = new TLayout("print_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "items_print";
 $layout->blocks["top"] = array();
 $layout->containers["pdf"] = array();
@@ -475,7 +475,7 @@ $page_layouts["items_print"] = $layout;
 
 $layout = new TLayout("print_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "paises_print";
 $layout->blocks["top"] = array();
 $layout->containers["pdf"] = array();
@@ -522,7 +522,7 @@ $page_layouts["paises_print"] = $layout;
 
 $layout = new TLayout("print_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "pedidos_print";
 $layout->blocks["top"] = array();
 $layout->containers["pdf"] = array();
@@ -569,7 +569,7 @@ $page_layouts["pedidos_print"] = $layout;
 
 $layout = new TLayout("print_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "personales_print";
 $layout->blocks["top"] = array();
 $layout->containers["pdf"] = array();
@@ -616,7 +616,7 @@ $page_layouts["personales_print"] = $layout;
 
 $layout = new TLayout("print_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "personas_print";
 $layout->blocks["top"] = array();
 $layout->containers["pdf"] = array();
@@ -663,7 +663,7 @@ $page_layouts["personas_print"] = $layout;
 
 $layout = new TLayout("print_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "preparaciones_print";
 $layout->blocks["top"] = array();
 $layout->containers["pdf"] = array();
@@ -710,7 +710,7 @@ $page_layouts["preparaciones_print"] = $layout;
 
 $layout = new TLayout("print_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "promociones_print";
 $layout->blocks["top"] = array();
 $layout->containers["pdf"] = array();
@@ -757,7 +757,7 @@ $page_layouts["promociones_print"] = $layout;
 
 $layout = new TLayout("print_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "proveedores_print";
 $layout->blocks["top"] = array();
 $layout->containers["pdf"] = array();
@@ -804,7 +804,7 @@ $page_layouts["proveedores_print"] = $layout;
 
 $layout = new TLayout("print_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "sucursales_print";
 $layout->blocks["top"] = array();
 $layout->containers["pdf"] = array();
@@ -851,7 +851,7 @@ $page_layouts["sucursales_print"] = $layout;
 
 $layout = new TLayout("print_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "users_print";
 $layout->blocks["top"] = array();
 $layout->containers["pdf"] = array();

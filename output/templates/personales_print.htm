@@ -96,11 +96,6 @@
 				{$label personales persona_id}
 			</th>
 			{END persona_id_fieldheadercolumn}
-			{BEGIN empresa_id_fieldheadercolumn}
-			<th class="{$empresa_id_class}" {$empresa_id_style}  data-field="empresa_id">
-				{$label personales empresa_id}
-			</th>
-			{END empresa_id_fieldheadercolumn}
 			{BEGIN endrecordheader_block}
 			<th class="rnr-cs">&nbsp;</th>
 			{END endrecordheader_block}
@@ -118,11 +113,6 @@
 				{$persona_id_value}
 			</td>
 			{END persona_id_fieldcolumn}
-			{BEGIN empresa_id_fieldcolumn}
-			<td  class="{$empresa_id_class}" {$empresa_id_style} {$recordattrs}>
-				{$empresa_id_value}
-			</td>
-			{END empresa_id_fieldcolumn}
 			{BEGIN endrecord_block}
 			<td class="rnr-cs" {$endrecordblock_attrs}>&nbsp;</td>
 			{END endrecord_block}

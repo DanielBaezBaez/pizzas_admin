@@ -91,11 +91,6 @@
 	{BEGIN grid_header}
 		<tr class="{$gridHeader_class}" >
 		{BEGIN record_header}
-			{BEGIN empresa_id_fieldheadercolumn}
-			<th class="{$empresa_id_class}" {$empresa_id_style}  data-field="empresa_id">
-				{$label promociones empresa_id}
-			</th>
-			{END empresa_id_fieldheadercolumn}
 			{BEGIN descripcion_fieldheadercolumn}
 			<th class="{$descripcion_class}" {$descripcion_style}  data-field="descripcion">
 				{$label promociones descripcion}
@@ -113,11 +108,6 @@
 	{BEGIN grid_row}
 		<tr class="{$rowclass}" {$rowattrs} {$rowstyle}>
 		{BEGIN grid_record}
-			{BEGIN empresa_id_fieldcolumn}
-			<td  class="{$empresa_id_class}" {$empresa_id_style} {$recordattrs}>
-				{$empresa_id_value}
-			</td>
-			{END empresa_id_fieldcolumn}
 			{BEGIN descripcion_fieldcolumn}
 			<td  class="{$descripcion_class}" {$descripcion_style} {$recordattrs}>
 				{$descripcion_value}

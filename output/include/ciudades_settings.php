@@ -167,13 +167,7 @@ $tdataciudades[".allSearchFields"] = array();
 $tdataciudades[".filterFields"] = array();
 $tdataciudades[".requiredSearchFields"] = array();
 
-$tdataciudades[".allSearchFields"][] = "id";
-	$tdataciudades[".allSearchFields"][] = "descripcion";
-	$tdataciudades[".allSearchFields"][] = "empresa_id";
-	$tdataciudades[".allSearchFields"][] = "creado_por";
-	$tdataciudades[".allSearchFields"][] = "actualizado_por";
-	$tdataciudades[".allSearchFields"][] = "creado";
-	$tdataciudades[".allSearchFields"][] = "actualizado";
+$tdataciudades[".allSearchFields"][] = "descripcion";
 	
 
 $tdataciudades[".googleLikeFields"] = array();
@@ -187,13 +181,7 @@ $tdataciudades[".googleLikeFields"][] = "actualizado";
 
 
 $tdataciudades[".advSearchFields"] = array();
-$tdataciudades[".advSearchFields"][] = "id";
 $tdataciudades[".advSearchFields"][] = "descripcion";
-$tdataciudades[".advSearchFields"][] = "empresa_id";
-$tdataciudades[".advSearchFields"][] = "creado_por";
-$tdataciudades[".advSearchFields"][] = "actualizado_por";
-$tdataciudades[".advSearchFields"][] = "creado";
-$tdataciudades[".advSearchFields"][] = "actualizado";
 
 $tdataciudades[".tableType"] = "list";
 
@@ -282,9 +270,7 @@ $tableKeysciudades[] = "id";
 $tdataciudades[".Keys"] = $tableKeysciudades;
 
 $tdataciudades[".listFields"] = array();
-$tdataciudades[".listFields"][] = "id";
 $tdataciudades[".listFields"][] = "descripcion";
-$tdataciudades[".listFields"][] = "empresa_id";
 $tdataciudades[".listFields"][] = "creado_por";
 $tdataciudades[".listFields"][] = "actualizado_por";
 $tdataciudades[".listFields"][] = "creado";
@@ -294,21 +280,10 @@ $tdataciudades[".hideMobileList"] = array();
 
 
 $tdataciudades[".viewFields"] = array();
-$tdataciudades[".viewFields"][] = "id";
 $tdataciudades[".viewFields"][] = "descripcion";
-$tdataciudades[".viewFields"][] = "empresa_id";
-$tdataciudades[".viewFields"][] = "creado_por";
-$tdataciudades[".viewFields"][] = "actualizado_por";
-$tdataciudades[".viewFields"][] = "creado";
-$tdataciudades[".viewFields"][] = "actualizado";
 
 $tdataciudades[".addFields"] = array();
 $tdataciudades[".addFields"][] = "descripcion";
-$tdataciudades[".addFields"][] = "empresa_id";
-$tdataciudades[".addFields"][] = "creado_por";
-$tdataciudades[".addFields"][] = "actualizado_por";
-$tdataciudades[".addFields"][] = "creado";
-$tdataciudades[".addFields"][] = "actualizado";
 
 $tdataciudades[".masterListFields"] = array();
 $tdataciudades[".masterListFields"][] = "id";
@@ -323,49 +298,21 @@ $tdataciudades[".inlineAddFields"] = array();
 
 $tdataciudades[".editFields"] = array();
 $tdataciudades[".editFields"][] = "descripcion";
-$tdataciudades[".editFields"][] = "empresa_id";
-$tdataciudades[".editFields"][] = "creado_por";
-$tdataciudades[".editFields"][] = "actualizado_por";
-$tdataciudades[".editFields"][] = "creado";
-$tdataciudades[".editFields"][] = "actualizado";
 
 $tdataciudades[".inlineEditFields"] = array();
 
 $tdataciudades[".updateSelectedFields"] = array();
 $tdataciudades[".updateSelectedFields"][] = "descripcion";
-$tdataciudades[".updateSelectedFields"][] = "empresa_id";
-$tdataciudades[".updateSelectedFields"][] = "creado_por";
-$tdataciudades[".updateSelectedFields"][] = "actualizado_por";
-$tdataciudades[".updateSelectedFields"][] = "creado";
-$tdataciudades[".updateSelectedFields"][] = "actualizado";
 
 
 $tdataciudades[".exportFields"] = array();
-$tdataciudades[".exportFields"][] = "id";
 $tdataciudades[".exportFields"][] = "descripcion";
-$tdataciudades[".exportFields"][] = "empresa_id";
-$tdataciudades[".exportFields"][] = "creado_por";
-$tdataciudades[".exportFields"][] = "actualizado_por";
-$tdataciudades[".exportFields"][] = "creado";
-$tdataciudades[".exportFields"][] = "actualizado";
 
 $tdataciudades[".importFields"] = array();
-$tdataciudades[".importFields"][] = "id";
 $tdataciudades[".importFields"][] = "descripcion";
-$tdataciudades[".importFields"][] = "empresa_id";
-$tdataciudades[".importFields"][] = "creado_por";
-$tdataciudades[".importFields"][] = "actualizado_por";
-$tdataciudades[".importFields"][] = "creado";
-$tdataciudades[".importFields"][] = "actualizado";
 
 $tdataciudades[".printFields"] = array();
-$tdataciudades[".printFields"][] = "id";
 $tdataciudades[".printFields"][] = "descripcion";
-$tdataciudades[".printFields"][] = "empresa_id";
-$tdataciudades[".printFields"][] = "creado_por";
-$tdataciudades[".printFields"][] = "actualizado_por";
-$tdataciudades[".printFields"][] = "creado";
-$tdataciudades[".printFields"][] = "actualizado";
 
 
 //	id
@@ -383,22 +330,17 @@ $tdataciudades[".printFields"][] = "actualizado";
 
 	
 			
-		$fdata["bListPage"] = true;
-
 	
 	
 	
 	
 	
+	
 
-		$fdata["bViewPage"] = true;
-
-		$fdata["bAdvancedSearch"] = true;
-
-		$fdata["bPrinterPage"] = true;
-
-		$fdata["bExportPage"] = true;
-
+	
+	
+	
+	
 		$fdata["strField"] = "id";
 
 		$fdata["isSQLExpression"] = true;
@@ -406,8 +348,7 @@ $tdataciudades[".printFields"][] = "actualizado";
 
 	
 	
-				$fdata["FieldPermissions"] = true;
-
+			
 				$fdata["UploadFolder"] = "files";
 
 //  Begin View Formats
@@ -487,12 +428,6 @@ $tdataciudades[".printFields"][] = "actualizado";
 
 
 
-// the field's search options settings
-		$fdata["defaultSearchOption"] = "Contains";
-
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Starts with", "More than", "Less than", "Between", "Empty", NOT_EMPTY);
-// the end of search options settings
 
 
 
@@ -642,25 +577,17 @@ $tdataciudades[".printFields"][] = "actualizado";
 	
 	
 			
-		$fdata["bListPage"] = true;
-
-		$fdata["bAddPage"] = true;
+	
+	
+	
+	
+	
+	
 
 	
-		$fdata["bEditPage"] = true;
-
 	
-		$fdata["bUpdateSelected"] = true;
-
-
-		$fdata["bViewPage"] = true;
-
-		$fdata["bAdvancedSearch"] = true;
-
-		$fdata["bPrinterPage"] = true;
-
-		$fdata["bExportPage"] = true;
-
+	
+	
 		$fdata["strField"] = "empresa_id";
 
 		$fdata["isSQLExpression"] = true;
@@ -668,8 +595,7 @@ $tdataciudades[".printFields"][] = "actualizado";
 
 	
 	
-				$fdata["FieldPermissions"] = true;
-
+			
 				$fdata["UploadFolder"] = "files";
 
 //  Begin View Formats
@@ -774,12 +700,6 @@ $tdataciudades[".printFields"][] = "actualizado";
 
 
 
-// the field's search options settings
-		$fdata["defaultSearchOption"] = "Equals";
-
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Starts with", "More than", "Less than", "Between", "Empty", NOT_EMPTY);
-// the end of search options settings
 
 
 
@@ -801,23 +721,16 @@ $tdataciudades[".printFields"][] = "actualizado";
 			
 		$fdata["bListPage"] = true;
 
-		$fdata["bAddPage"] = true;
+	
+	
+	
+	
+	
 
 	
-		$fdata["bEditPage"] = true;
-
 	
-		$fdata["bUpdateSelected"] = true;
-
-
-		$fdata["bViewPage"] = true;
-
-		$fdata["bAdvancedSearch"] = true;
-
-		$fdata["bPrinterPage"] = true;
-
-		$fdata["bExportPage"] = true;
-
+	
+	
 		$fdata["strField"] = "creado_por";
 
 		$fdata["isSQLExpression"] = true;
@@ -931,12 +844,6 @@ $tdataciudades[".printFields"][] = "actualizado";
 
 
 
-// the field's search options settings
-		$fdata["defaultSearchOption"] = "Equals";
-
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Starts with", "More than", "Less than", "Between", "Empty", NOT_EMPTY);
-// the end of search options settings
 
 
 
@@ -958,23 +865,16 @@ $tdataciudades[".printFields"][] = "actualizado";
 			
 		$fdata["bListPage"] = true;
 
-		$fdata["bAddPage"] = true;
+	
+	
+	
+	
+	
 
 	
-		$fdata["bEditPage"] = true;
-
 	
-		$fdata["bUpdateSelected"] = true;
-
-
-		$fdata["bViewPage"] = true;
-
-		$fdata["bAdvancedSearch"] = true;
-
-		$fdata["bPrinterPage"] = true;
-
-		$fdata["bExportPage"] = true;
-
+	
+	
 		$fdata["strField"] = "actualizado_por";
 
 		$fdata["isSQLExpression"] = true;
@@ -1086,12 +986,6 @@ $tdataciudades[".printFields"][] = "actualizado";
 
 
 
-// the field's search options settings
-		$fdata["defaultSearchOption"] = "Equals";
-
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Starts with", "More than", "Less than", "Between", "Empty", NOT_EMPTY);
-// the end of search options settings
 
 
 
@@ -1113,23 +1007,16 @@ $tdataciudades[".printFields"][] = "actualizado";
 			
 		$fdata["bListPage"] = true;
 
-		$fdata["bAddPage"] = true;
+	
+	
+	
+	
+	
 
 	
-		$fdata["bEditPage"] = true;
-
 	
-		$fdata["bUpdateSelected"] = true;
-
-
-		$fdata["bViewPage"] = true;
-
-		$fdata["bAdvancedSearch"] = true;
-
-		$fdata["bPrinterPage"] = true;
-
-		$fdata["bExportPage"] = true;
-
+	
+	
 		$fdata["strField"] = "creado";
 
 		$fdata["isSQLExpression"] = true;
@@ -1217,12 +1104,6 @@ $tdataciudades[".printFields"][] = "actualizado";
 
 
 
-// the field's search options settings
-		$fdata["defaultSearchOption"] = "Equals";
-
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between", EMPTY_SEARCH, NOT_EMPTY );
-// the end of search options settings
 
 
 
@@ -1244,23 +1125,16 @@ $tdataciudades[".printFields"][] = "actualizado";
 			
 		$fdata["bListPage"] = true;
 
-		$fdata["bAddPage"] = true;
+	
+	
+	
+	
+	
 
 	
-		$fdata["bEditPage"] = true;
-
 	
-		$fdata["bUpdateSelected"] = true;
-
-
-		$fdata["bViewPage"] = true;
-
-		$fdata["bAdvancedSearch"] = true;
-
-		$fdata["bPrinterPage"] = true;
-
-		$fdata["bExportPage"] = true;
-
+	
+	
 		$fdata["strField"] = "actualizado";
 
 		$fdata["isSQLExpression"] = true;
@@ -1348,12 +1222,6 @@ $tdataciudades[".printFields"][] = "actualizado";
 
 
 
-// the field's search options settings
-		$fdata["defaultSearchOption"] = "Equals";
-
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between", EMPTY_SEARCH, NOT_EMPTY );
-// the end of search options settings
 
 
 

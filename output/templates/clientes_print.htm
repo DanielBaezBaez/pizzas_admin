@@ -91,41 +91,11 @@
 	{BEGIN grid_header}
 		<tr class="{$gridHeader_class}" >
 		{BEGIN record_header}
-			{BEGIN id_fieldheadercolumn}
-			<th class="{$id_class}" {$id_style}  data-field="id">
-				{$label clientes id}
-			</th>
-			{END id_fieldheadercolumn}
 			{BEGIN persona_id_fieldheadercolumn}
 			<th class="{$persona_id_class}" {$persona_id_style}  data-field="persona_id">
 				{$label clientes persona_id}
 			</th>
 			{END persona_id_fieldheadercolumn}
-			{BEGIN empresa_id_fieldheadercolumn}
-			<th class="{$empresa_id_class}" {$empresa_id_style}  data-field="empresa_id">
-				{$label clientes empresa_id}
-			</th>
-			{END empresa_id_fieldheadercolumn}
-			{BEGIN creado_por_fieldheadercolumn}
-			<th class="{$creado_por_class}" {$creado_por_style}  data-field="creado_por">
-				{$label clientes creado_por}
-			</th>
-			{END creado_por_fieldheadercolumn}
-			{BEGIN actualizado_por_fieldheadercolumn}
-			<th class="{$actualizado_por_class}" {$actualizado_por_style}  data-field="actualizado_por">
-				{$label clientes actualizado_por}
-			</th>
-			{END actualizado_por_fieldheadercolumn}
-			{BEGIN creado_fieldheadercolumn}
-			<th class="{$creado_class}" {$creado_style}  data-field="creado">
-				{$label clientes creado}
-			</th>
-			{END creado_fieldheadercolumn}
-			{BEGIN actualizado_fieldheadercolumn}
-			<th class="{$actualizado_class}" {$actualizado_style}  data-field="actualizado">
-				{$label clientes actualizado}
-			</th>
-			{END actualizado_fieldheadercolumn}
 			{BEGIN endrecordheader_block}
 			<th class="rnr-cs">&nbsp;</th>
 			{END endrecordheader_block}
@@ -138,41 +108,11 @@
 	{BEGIN grid_row}
 		<tr class="{$rowclass}" {$rowattrs} {$rowstyle}>
 		{BEGIN grid_record}
-			{BEGIN id_fieldcolumn}
-			<td  class="{$id_class}" {$id_style} {$recordattrs}>
-				{$id_value}
-			</td>
-			{END id_fieldcolumn}
 			{BEGIN persona_id_fieldcolumn}
 			<td  class="{$persona_id_class}" {$persona_id_style} {$recordattrs}>
 				{$persona_id_value}
 			</td>
 			{END persona_id_fieldcolumn}
-			{BEGIN empresa_id_fieldcolumn}
-			<td  class="{$empresa_id_class}" {$empresa_id_style} {$recordattrs}>
-				{$empresa_id_value}
-			</td>
-			{END empresa_id_fieldcolumn}
-			{BEGIN creado_por_fieldcolumn}
-			<td  class="{$creado_por_class}" {$creado_por_style} {$recordattrs}>
-				{$creado_por_value}
-			</td>
-			{END creado_por_fieldcolumn}
-			{BEGIN actualizado_por_fieldcolumn}
-			<td  class="{$actualizado_por_class}" {$actualizado_por_style} {$recordattrs}>
-				{$actualizado_por_value}
-			</td>
-			{END actualizado_por_fieldcolumn}
-			{BEGIN creado_fieldcolumn}
-			<td  class="{$creado_class}" {$creado_style} {$recordattrs}>
-				{$creado_value}
-			</td>
-			{END creado_fieldcolumn}
-			{BEGIN actualizado_fieldcolumn}
-			<td  class="{$actualizado_class}" {$actualizado_style} {$recordattrs}>
-				{$actualizado_value}
-			</td>
-			{END actualizado_fieldcolumn}
 			{BEGIN endrecord_block}
 			<td class="rnr-cs" {$endrecordblock_attrs}>&nbsp;</td>
 			{END endrecord_block}

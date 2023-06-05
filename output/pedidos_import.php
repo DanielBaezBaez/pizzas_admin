@@ -18,7 +18,7 @@ if( !Security::processPageSecurity( $strtablename, 'I' ) )
 
 $layout = new TLayout("import_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "pedidos_import";
 $layout->blocks["top"] = array();
 $layout->containers["page"] = array();

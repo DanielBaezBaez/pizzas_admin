@@ -448,16 +448,6 @@
 		<a>
 		  <div class="checkbox">
 			<label>
-			  <input type="checkbox" id="hide_empresa_id" checked="checked" value="1" data-field="empresa_id">
-			  <span>{$label promociones empresa_id}</span>
-			</label>
-		</div>
-		</a>
-		</li>
-		<li>
-		<a>
-		  <div class="checkbox">
-			<label>
 			  <input type="checkbox" id="hide_descripcion" checked="checked" value="1" data-field="descripcion">
 			  <span>{$label promociones descripcion}</span>
 			</label>
@@ -618,19 +608,6 @@
 									{END checkbox_column}
 
 																		
-									{BEGIN empresa_id_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$empresa_id_class}" data-field=empresa_id>
-									{BEGIN empresa_id_fieldheader}
-																				<span {$empresa_id_orderlinkattrs}>
-											{$label promociones empresa_id}
-										</span>
-									{END empresa_id_fieldheader}
-									</th>
-									{END empresa_id_fieldheadercolumn}
-									
-									
-									
-									
 									{BEGIN descripcion_fieldheadercolumn}
 									<th class="rnr-gridfieldlabel {$descripcion_class}" data-field=descripcion>
 									{BEGIN descripcion_fieldheader}
@@ -740,13 +717,6 @@
 	{END checkbox_column}
 
 	
-
-	{BEGIN empresa_id_fieldcolumn}
-	<td class="bs-gridcell {$empresa_id_class}"  data-field=empresa_id {$rowstyle} {$recordattrs}>
-		{$empresa_id_value}
-	</td>
-{END empresa_id_fieldcolumn}
-
 
 	{BEGIN descripcion_fieldcolumn}
 	<td class="bs-gridcell {$descripcion_class}"  data-field=descripcion {$rowstyle} {$recordattrs}>

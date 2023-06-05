@@ -111,23 +111,41 @@
 </div>
 {END descripcion_fieldblock}
 
-			{BEGIN ingredientes_principales_fieldblock}
+			{BEGIN costo_fieldblock}
 <div class=container>
-<div class="form-group {$fielddispclass_ingredientes_principales}" data-fieldname="ingredientes_principales" data-signal-error-for="ingredientes_principales{$id}" >
-	<label class="col-md-3 control-label" for="{$labelfor_ingredientes_principales}">
-		{BEGIN ingredientes_principales_label}{$label items ingredientes_principales}{END ingredientes_principales_label}
+<div class="form-group {$fielddispclass_costo}" data-fieldname="costo" data-signal-error-for="costo{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_costo}">
+		{BEGIN costo_label}{$label items costo}{END costo_label}
 	</label>
 	<div class="col-md-6" >
-		{$ingredientes_principales_editcontrol}
+		{$costo_editcontrol}
 	</div>
-	<div class="col-md-3 help-block" data-helpfor="ingredientes_principales">
+	<div class="col-md-3 help-block" data-helpfor="costo">
 		<div class="text-muted" >
-		{$tooltip items ingredientes_principales}
+		{$tooltip items costo}
 		</div>
 	</div>
 </div>
 </div>
-{END ingredientes_principales_fieldblock}
+{END costo_fieldblock}
+
+			{BEGIN tipo_item_id_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_tipo_item_id}" data-fieldname="tipo_item_id" data-signal-error-for="tipo_item_id{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_tipo_item_id}">
+		{BEGIN tipo_item_id_label}{$label items tipo_item_id}{END tipo_item_id_label}
+	</label>
+	<div class="col-md-6" >
+		{$tipo_item_id_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="tipo_item_id">
+		<div class="text-muted" >
+		{$tooltip items tipo_item_id}
+		</div>
+	</div>
+</div>
+</div>
+{END tipo_item_id_fieldblock}
 
 			{BEGIN url_image_fieldblock}
 <div class=container>
@@ -147,23 +165,23 @@
 </div>
 {END url_image_fieldblock}
 
-			{BEGIN costo_fieldblock}
+			{BEGIN ingredientes_principales_fieldblock}
 <div class=container>
-<div class="form-group {$fielddispclass_costo}" data-fieldname="costo" data-signal-error-for="costo{$id}" >
-	<label class="col-md-3 control-label" for="{$labelfor_costo}">
-		{BEGIN costo_label}{$label items costo}{END costo_label}
+<div class="form-group {$fielddispclass_ingredientes_principales}" data-fieldname="ingredientes_principales" data-signal-error-for="ingredientes_principales{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_ingredientes_principales}">
+		{BEGIN ingredientes_principales_label}{$label items ingredientes_principales}{END ingredientes_principales_label}
 	</label>
 	<div class="col-md-6" >
-		{$costo_editcontrol}
+		{$ingredientes_principales_editcontrol}
 	</div>
-	<div class="col-md-3 help-block" data-helpfor="costo">
+	<div class="col-md-3 help-block" data-helpfor="ingredientes_principales">
 		<div class="text-muted" >
-		{$tooltip items costo}
+		{$tooltip items ingredientes_principales}
 		</div>
 	</div>
 </div>
 </div>
-{END costo_fieldblock}
+{END ingredientes_principales_fieldblock}
 
 			{BEGIN detalle_fieldblock}
 <div class=container>
@@ -182,24 +200,6 @@
 </div>
 </div>
 {END detalle_fieldblock}
-
-			{BEGIN tipo_item_id_fieldblock}
-<div class=container>
-<div class="form-group {$fielddispclass_tipo_item_id}" data-fieldname="tipo_item_id" data-signal-error-for="tipo_item_id{$id}" >
-	<label class="col-md-3 control-label" for="{$labelfor_tipo_item_id}">
-		{BEGIN tipo_item_id_label}{$label items tipo_item_id}{END tipo_item_id_label}
-	</label>
-	<div class="col-md-6" >
-		{$tipo_item_id_editcontrol}
-	</div>
-	<div class="col-md-3 help-block" data-helpfor="tipo_item_id">
-		<div class="text-muted" >
-		{$tooltip items tipo_item_id}
-		</div>
-	</div>
-</div>
-</div>
-{END tipo_item_id_fieldblock}
 
 
 </div>

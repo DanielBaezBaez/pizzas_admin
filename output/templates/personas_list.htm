@@ -558,16 +558,6 @@
 		<a>
 		  <div class="checkbox">
 			<label>
-			  <input type="checkbox" id="hide_empresa_id" checked="checked" value="1" data-field="empresa_id">
-			  <span>{$label personas empresa_id}</span>
-			</label>
-		</div>
-		</a>
-		</li>
-		<li>
-		<a>
-		  <div class="checkbox">
-			<label>
 			  <input type="checkbox" id="hide_actualizado_por" checked="checked" value="1" data-field="actualizado_por">
 			  <span>{$label personas actualizado_por}</span>
 			</label>
@@ -817,19 +807,6 @@
 									
 									
 									
-									{BEGIN empresa_id_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$empresa_id_class}" data-field=empresa_id>
-									{BEGIN empresa_id_fieldheader}
-																				<span {$empresa_id_orderlinkattrs}>
-											{$label personas empresa_id}
-										</span>
-									{END empresa_id_fieldheader}
-									</th>
-									{END empresa_id_fieldheadercolumn}
-									
-									
-									
-									
 									{BEGIN actualizado_por_fieldheadercolumn}
 									<th class="rnr-gridfieldlabel {$actualizado_por_class}" data-field=actualizado_por>
 									{BEGIN actualizado_por_fieldheader}
@@ -978,13 +955,6 @@
 		{$creado_por_value}
 	</td>
 {END creado_por_fieldcolumn}
-
-
-	{BEGIN empresa_id_fieldcolumn}
-	<td class="bs-gridcell {$empresa_id_class}"  data-field=empresa_id {$rowstyle} {$recordattrs}>
-		{$empresa_id_value}
-	</td>
-{END empresa_id_fieldcolumn}
 
 
 	{BEGIN actualizado_por_fieldcolumn}

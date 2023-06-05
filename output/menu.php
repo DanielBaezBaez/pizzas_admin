@@ -23,7 +23,7 @@ if (($_SESSION["MyURL"] == "") || (!isLoggedAsGuest())) {
 
 $layout = new TLayout("menu_bootstrap1", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "_menu";
 $layout->blocks["top"] = array();
 $layout->containers["menu"] = array();
@@ -83,6 +83,8 @@ $page_layouts["menu"] = $layout;
 require_once('include/xtempl.php');
 require_once(getabspath("classes/cipherer.php"));
 
+include_once(getabspath("include/barrios_events.php"));
+$tableEvents["barrios"] = new eventclass_barrios;
 
 $xt = new Xtempl();
 

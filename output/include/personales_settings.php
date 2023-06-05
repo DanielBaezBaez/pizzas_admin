@@ -168,7 +168,6 @@ $tdatapersonales[".filterFields"] = array();
 $tdatapersonales[".requiredSearchFields"] = array();
 
 $tdatapersonales[".allSearchFields"][] = "persona_id";
-	$tdatapersonales[".allSearchFields"][] = "empresa_id";
 	
 
 $tdatapersonales[".googleLikeFields"] = array();
@@ -183,7 +182,6 @@ $tdatapersonales[".googleLikeFields"][] = "actualizado";
 
 $tdatapersonales[".advSearchFields"] = array();
 $tdatapersonales[".advSearchFields"][] = "persona_id";
-$tdatapersonales[".advSearchFields"][] = "empresa_id";
 
 $tdatapersonales[".tableType"] = "list";
 
@@ -273,7 +271,6 @@ $tdatapersonales[".Keys"] = $tableKeyspersonales;
 
 $tdatapersonales[".listFields"] = array();
 $tdatapersonales[".listFields"][] = "persona_id";
-$tdatapersonales[".listFields"][] = "empresa_id";
 $tdatapersonales[".listFields"][] = "creado_por";
 $tdatapersonales[".listFields"][] = "actualizado_por";
 $tdatapersonales[".listFields"][] = "creado";
@@ -284,7 +281,6 @@ $tdatapersonales[".hideMobileList"] = array();
 
 $tdatapersonales[".viewFields"] = array();
 $tdatapersonales[".viewFields"][] = "persona_id";
-$tdatapersonales[".viewFields"][] = "empresa_id";
 
 $tdatapersonales[".addFields"] = array();
 $tdatapersonales[".addFields"][] = "persona_id";
@@ -302,26 +298,21 @@ $tdatapersonales[".inlineAddFields"] = array();
 
 $tdatapersonales[".editFields"] = array();
 $tdatapersonales[".editFields"][] = "persona_id";
-$tdatapersonales[".editFields"][] = "empresa_id";
 
 $tdatapersonales[".inlineEditFields"] = array();
 
 $tdatapersonales[".updateSelectedFields"] = array();
 $tdatapersonales[".updateSelectedFields"][] = "persona_id";
-$tdatapersonales[".updateSelectedFields"][] = "empresa_id";
 
 
 $tdatapersonales[".exportFields"] = array();
 $tdatapersonales[".exportFields"][] = "persona_id";
-$tdatapersonales[".exportFields"][] = "empresa_id";
 
 $tdatapersonales[".importFields"] = array();
 $tdatapersonales[".importFields"][] = "persona_id";
-$tdatapersonales[".importFields"][] = "empresa_id";
 
 $tdatapersonales[".printFields"] = array();
 $tdatapersonales[".printFields"][] = "persona_id";
-$tdatapersonales[".printFields"][] = "empresa_id";
 
 
 //	id
@@ -613,24 +604,17 @@ $tdatapersonales[".printFields"][] = "empresa_id";
 	
 	
 			
-		$fdata["bListPage"] = true;
+	
+	
+	
+	
+	
+	
 
 	
 	
-		$fdata["bEditPage"] = true;
-
 	
-		$fdata["bUpdateSelected"] = true;
-
-
-		$fdata["bViewPage"] = true;
-
-		$fdata["bAdvancedSearch"] = true;
-
-		$fdata["bPrinterPage"] = true;
-
-		$fdata["bExportPage"] = true;
-
+	
 		$fdata["strField"] = "empresa_id";
 
 		$fdata["isSQLExpression"] = true;
@@ -638,8 +622,7 @@ $tdatapersonales[".printFields"][] = "empresa_id";
 
 	
 	
-				$fdata["FieldPermissions"] = true;
-
+			
 				$fdata["UploadFolder"] = "files";
 
 //  Begin View Formats
@@ -744,12 +727,6 @@ $tdatapersonales[".printFields"][] = "empresa_id";
 
 
 
-// the field's search options settings
-		$fdata["defaultSearchOption"] = "Equals";
-
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Starts with", "More than", "Less than", "Between", "Empty", NOT_EMPTY);
-// the end of search options settings
 
 
 

@@ -448,28 +448,8 @@
 		<a>
 		  <div class="checkbox">
 			<label>
-			  <input type="checkbox" id="hide_id" checked="checked" value="1" data-field="id">
-			  <span>{$label ciudades id}</span>
-			</label>
-		</div>
-		</a>
-		</li>
-		<li>
-		<a>
-		  <div class="checkbox">
-			<label>
 			  <input type="checkbox" id="hide_descripcion" checked="checked" value="1" data-field="descripcion">
 			  <span>{$label ciudades descripcion}</span>
-			</label>
-		</div>
-		</a>
-		</li>
-		<li>
-		<a>
-		  <div class="checkbox">
-			<label>
-			  <input type="checkbox" id="hide_empresa_id" checked="checked" value="1" data-field="empresa_id">
-			  <span>{$label ciudades empresa_id}</span>
 			</label>
 		</div>
 		</a>
@@ -628,19 +608,6 @@
 									{END checkbox_column}
 
 																		
-									{BEGIN id_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$id_class}" data-field=id>
-									{BEGIN id_fieldheader}
-																				<span {$id_orderlinkattrs}>
-											{$label ciudades id}
-										</span>
-									{END id_fieldheader}
-									</th>
-									{END id_fieldheadercolumn}
-									
-									
-									
-									
 									{BEGIN descripcion_fieldheadercolumn}
 									<th class="rnr-gridfieldlabel {$descripcion_class}" data-field=descripcion>
 									{BEGIN descripcion_fieldheader}
@@ -650,19 +617,6 @@
 									{END descripcion_fieldheader}
 									</th>
 									{END descripcion_fieldheadercolumn}
-									
-									
-									
-									
-									{BEGIN empresa_id_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$empresa_id_class}" data-field=empresa_id>
-									{BEGIN empresa_id_fieldheader}
-																				<span {$empresa_id_orderlinkattrs}>
-											{$label ciudades empresa_id}
-										</span>
-									{END empresa_id_fieldheader}
-									</th>
-									{END empresa_id_fieldheadercolumn}
 									
 									
 									
@@ -764,25 +718,11 @@
 
 	
 
-	{BEGIN id_fieldcolumn}
-	<td class="bs-gridcell {$id_class}"  data-field=id {$rowstyle} {$recordattrs}>
-		{$id_value}
-	</td>
-{END id_fieldcolumn}
-
-
 	{BEGIN descripcion_fieldcolumn}
 	<td class="bs-gridcell {$descripcion_class}"  data-field=descripcion {$rowstyle} {$recordattrs}>
 		{$descripcion_value}
 	</td>
 {END descripcion_fieldcolumn}
-
-
-	{BEGIN empresa_id_fieldcolumn}
-	<td class="bs-gridcell {$empresa_id_class}"  data-field=empresa_id {$rowstyle} {$recordattrs}>
-		{$empresa_id_value}
-	</td>
-{END empresa_id_fieldcolumn}
 
 
 	{BEGIN creado_por_fieldcolumn}

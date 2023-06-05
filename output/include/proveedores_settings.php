@@ -278,7 +278,6 @@ $tdataproveedores[".Keys"] = $tableKeysproveedores;
 $tdataproveedores[".listFields"] = array();
 $tdataproveedores[".listFields"][] = "descripcion";
 $tdataproveedores[".listFields"][] = "persona_id";
-$tdataproveedores[".listFields"][] = "empresa_id";
 $tdataproveedores[".listFields"][] = "creado_por";
 $tdataproveedores[".listFields"][] = "actualizado_por";
 $tdataproveedores[".listFields"][] = "creado";
@@ -750,8 +749,7 @@ $tdataproveedores[".printFields"][] = "persona_id";
 	
 	
 			
-		$fdata["bListPage"] = true;
-
+	
 	
 	
 	
@@ -769,8 +767,7 @@ $tdataproveedores[".printFields"][] = "persona_id";
 
 	
 	
-				$fdata["FieldPermissions"] = true;
-
+			
 				$fdata["UploadFolder"] = "files";
 
 //  Begin View Formats

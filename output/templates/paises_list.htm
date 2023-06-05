@@ -458,16 +458,6 @@
 		<a>
 		  <div class="checkbox">
 			<label>
-			  <input type="checkbox" id="hide_empresa_id" checked="checked" value="1" data-field="empresa_id">
-			  <span>{$label paises empresa_id}</span>
-			</label>
-		</div>
-		</a>
-		</li>
-		<li>
-		<a>
-		  <div class="checkbox">
-			<label>
 			  <input type="checkbox" id="hide_creado_por" checked="checked" value="1" data-field="creado_por">
 			  <span>{$label paises creado_por}</span>
 			</label>
@@ -631,19 +621,6 @@
 									
 									
 									
-									{BEGIN empresa_id_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$empresa_id_class}" data-field=empresa_id>
-									{BEGIN empresa_id_fieldheader}
-																				<span {$empresa_id_orderlinkattrs}>
-											{$label paises empresa_id}
-										</span>
-									{END empresa_id_fieldheader}
-									</th>
-									{END empresa_id_fieldheadercolumn}
-									
-									
-									
-									
 									{BEGIN creado_por_fieldheadercolumn}
 									<th class="rnr-gridfieldlabel {$creado_por_class}" data-field=creado_por>
 									{BEGIN creado_por_fieldheader}
@@ -746,13 +723,6 @@
 		{$descripcion_value}
 	</td>
 {END descripcion_fieldcolumn}
-
-
-	{BEGIN empresa_id_fieldcolumn}
-	<td class="bs-gridcell {$empresa_id_class}"  data-field=empresa_id {$rowstyle} {$recordattrs}>
-		{$empresa_id_value}
-	</td>
-{END empresa_id_fieldcolumn}
 
 
 	{BEGIN creado_por_fieldcolumn}

@@ -38,7 +38,7 @@ if(mlang_getcurrentlang()=="Spanish")
 	$fieldLabelssucursales["Spanish"]["correo"] = "Correo";
 	$fieldToolTipssucursales["Spanish"]["correo"] = "";
 	$placeHolderssucursales["Spanish"]["correo"] = "";
-	$fieldLabelssucursales["Spanish"]["empresa_id"] = "Empresa Id";
+	$fieldLabelssucursales["Spanish"]["empresa_id"] = "Empresa";
 	$fieldToolTipssucursales["Spanish"]["empresa_id"] = "";
 	$placeHolderssucursales["Spanish"]["empresa_id"] = "";
 	$fieldLabelssucursales["Spanish"]["creado_por"] = "Creado Por";
@@ -292,6 +292,10 @@ $tdatasucursales[".listFields"][] = "descripcion";
 $tdatasucursales[".listFields"][] = "telefono";
 $tdatasucursales[".listFields"][] = "direccion";
 $tdatasucursales[".listFields"][] = "correo";
+$tdatasucursales[".listFields"][] = "creado_por";
+$tdatasucursales[".listFields"][] = "actualizado_por";
+$tdatasucursales[".listFields"][] = "creado";
+$tdatasucursales[".listFields"][] = "actualizado";
 
 $tdatasucursales[".hideMobileList"] = array();
 
@@ -1150,7 +1154,8 @@ $tdatasucursales[".printFields"][] = "correo";
 	
 	
 			
-	
+		$fdata["bListPage"] = true;
+
 	
 	
 	
@@ -1168,7 +1173,8 @@ $tdatasucursales[".printFields"][] = "correo";
 
 	
 	
-			
+				$fdata["FieldPermissions"] = true;
+
 				$fdata["UploadFolder"] = "files";
 
 //  Begin View Formats
@@ -1292,7 +1298,8 @@ $tdatasucursales[".printFields"][] = "correo";
 	
 	
 			
-	
+		$fdata["bListPage"] = true;
+
 	
 	
 	
@@ -1310,7 +1317,8 @@ $tdatasucursales[".printFields"][] = "correo";
 
 	
 	
-			
+				$fdata["FieldPermissions"] = true;
+
 				$fdata["UploadFolder"] = "files";
 
 //  Begin View Formats
@@ -1432,7 +1440,8 @@ $tdatasucursales[".printFields"][] = "correo";
 	
 	
 			
-	
+		$fdata["bListPage"] = true;
+
 	
 	
 	
@@ -1450,7 +1459,8 @@ $tdatasucursales[".printFields"][] = "correo";
 
 	
 	
-			
+				$fdata["FieldPermissions"] = true;
+
 				$fdata["UploadFolder"] = "files";
 
 //  Begin View Formats
@@ -1548,7 +1558,8 @@ $tdatasucursales[".printFields"][] = "correo";
 	
 	
 			
-	
+		$fdata["bListPage"] = true;
+
 	
 	
 	
@@ -1566,7 +1577,8 @@ $tdatasucursales[".printFields"][] = "correo";
 
 	
 	
-			
+				$fdata["FieldPermissions"] = true;
+
 				$fdata["UploadFolder"] = "files";
 
 //  Begin View Formats

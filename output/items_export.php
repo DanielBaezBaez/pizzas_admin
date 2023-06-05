@@ -17,7 +17,7 @@ if( !Security::processPageSecurity( $strtablename, 'P' ) )
 
 $layout = new TLayout("export_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "items_export";
 $layout->blocks["top"] = array();
 $layout->containers["page"] = array();

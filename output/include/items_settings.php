@@ -183,11 +183,11 @@ $tdataitems[".filterFields"] = array();
 $tdataitems[".requiredSearchFields"] = array();
 
 $tdataitems[".allSearchFields"][] = "descripcion";
-	$tdataitems[".allSearchFields"][] = "ingredientes_principales";
-	$tdataitems[".allSearchFields"][] = "url_image";
 	$tdataitems[".allSearchFields"][] = "costo";
-	$tdataitems[".allSearchFields"][] = "detalle";
 	$tdataitems[".allSearchFields"][] = "tipo_item_id";
+	$tdataitems[".allSearchFields"][] = "url_image";
+	$tdataitems[".allSearchFields"][] = "ingredientes_principales";
+	$tdataitems[".allSearchFields"][] = "detalle";
 	
 
 $tdataitems[".googleLikeFields"] = array();
@@ -207,11 +207,11 @@ $tdataitems[".googleLikeFields"][] = "actualizado";
 
 $tdataitems[".advSearchFields"] = array();
 $tdataitems[".advSearchFields"][] = "descripcion";
-$tdataitems[".advSearchFields"][] = "ingredientes_principales";
-$tdataitems[".advSearchFields"][] = "url_image";
 $tdataitems[".advSearchFields"][] = "costo";
-$tdataitems[".advSearchFields"][] = "detalle";
 $tdataitems[".advSearchFields"][] = "tipo_item_id";
+$tdataitems[".advSearchFields"][] = "url_image";
+$tdataitems[".advSearchFields"][] = "ingredientes_principales";
+$tdataitems[".advSearchFields"][] = "detalle";
 
 $tdataitems[".tableType"] = "list";
 
@@ -301,11 +301,11 @@ $tdataitems[".Keys"] = $tableKeysitems;
 
 $tdataitems[".listFields"] = array();
 $tdataitems[".listFields"][] = "descripcion";
-$tdataitems[".listFields"][] = "ingredientes_principales";
-$tdataitems[".listFields"][] = "url_image";
 $tdataitems[".listFields"][] = "costo";
-$tdataitems[".listFields"][] = "detalle";
 $tdataitems[".listFields"][] = "tipo_item_id";
+$tdataitems[".listFields"][] = "url_image";
+$tdataitems[".listFields"][] = "ingredientes_principales";
+$tdataitems[".listFields"][] = "detalle";
 $tdataitems[".listFields"][] = "creado_por";
 $tdataitems[".listFields"][] = "actualizado_por";
 $tdataitems[".listFields"][] = "creado";
@@ -316,56 +316,56 @@ $tdataitems[".hideMobileList"] = array();
 
 $tdataitems[".viewFields"] = array();
 $tdataitems[".viewFields"][] = "descripcion";
-$tdataitems[".viewFields"][] = "ingredientes_principales";
-$tdataitems[".viewFields"][] = "url_image";
 $tdataitems[".viewFields"][] = "costo";
-$tdataitems[".viewFields"][] = "detalle";
 $tdataitems[".viewFields"][] = "tipo_item_id";
+$tdataitems[".viewFields"][] = "url_image";
+$tdataitems[".viewFields"][] = "ingredientes_principales";
+$tdataitems[".viewFields"][] = "detalle";
 
 $tdataitems[".addFields"] = array();
 $tdataitems[".addFields"][] = "descripcion";
-$tdataitems[".addFields"][] = "ingredientes_principales";
-$tdataitems[".addFields"][] = "url_image";
 $tdataitems[".addFields"][] = "costo";
-$tdataitems[".addFields"][] = "detalle";
 $tdataitems[".addFields"][] = "tipo_item_id";
+$tdataitems[".addFields"][] = "url_image";
+$tdataitems[".addFields"][] = "ingredientes_principales";
+$tdataitems[".addFields"][] = "detalle";
 
 $tdataitems[".masterListFields"] = array();
 $tdataitems[".masterListFields"][] = "descripcion";
-$tdataitems[".masterListFields"][] = "ingredientes_principales";
-$tdataitems[".masterListFields"][] = "url_image";
 $tdataitems[".masterListFields"][] = "costo";
-$tdataitems[".masterListFields"][] = "detalle";
 $tdataitems[".masterListFields"][] = "tipo_item_id";
+$tdataitems[".masterListFields"][] = "url_image";
+$tdataitems[".masterListFields"][] = "ingredientes_principales";
+$tdataitems[".masterListFields"][] = "detalle";
 
 $tdataitems[".inlineAddFields"] = array();
 
 $tdataitems[".editFields"] = array();
 $tdataitems[".editFields"][] = "descripcion";
-$tdataitems[".editFields"][] = "ingredientes_principales";
-$tdataitems[".editFields"][] = "url_image";
 $tdataitems[".editFields"][] = "costo";
-$tdataitems[".editFields"][] = "detalle";
 $tdataitems[".editFields"][] = "tipo_item_id";
+$tdataitems[".editFields"][] = "url_image";
+$tdataitems[".editFields"][] = "ingredientes_principales";
+$tdataitems[".editFields"][] = "detalle";
 
 $tdataitems[".inlineEditFields"] = array();
 
 $tdataitems[".updateSelectedFields"] = array();
 $tdataitems[".updateSelectedFields"][] = "descripcion";
-$tdataitems[".updateSelectedFields"][] = "ingredientes_principales";
-$tdataitems[".updateSelectedFields"][] = "url_image";
 $tdataitems[".updateSelectedFields"][] = "costo";
-$tdataitems[".updateSelectedFields"][] = "detalle";
 $tdataitems[".updateSelectedFields"][] = "tipo_item_id";
+$tdataitems[".updateSelectedFields"][] = "url_image";
+$tdataitems[".updateSelectedFields"][] = "ingredientes_principales";
+$tdataitems[".updateSelectedFields"][] = "detalle";
 
 
 $tdataitems[".exportFields"] = array();
 $tdataitems[".exportFields"][] = "descripcion";
-$tdataitems[".exportFields"][] = "ingredientes_principales";
-$tdataitems[".exportFields"][] = "url_image";
 $tdataitems[".exportFields"][] = "costo";
-$tdataitems[".exportFields"][] = "detalle";
 $tdataitems[".exportFields"][] = "tipo_item_id";
+$tdataitems[".exportFields"][] = "url_image";
+$tdataitems[".exportFields"][] = "ingredientes_principales";
+$tdataitems[".exportFields"][] = "detalle";
 
 $tdataitems[".importFields"] = array();
 $tdataitems[".importFields"][] = "descripcion";
@@ -377,11 +377,11 @@ $tdataitems[".importFields"][] = "tipo_item_id";
 
 $tdataitems[".printFields"] = array();
 $tdataitems[".printFields"][] = "descripcion";
-$tdataitems[".printFields"][] = "ingredientes_principales";
-$tdataitems[".printFields"][] = "url_image";
 $tdataitems[".printFields"][] = "costo";
-$tdataitems[".printFields"][] = "detalle";
 $tdataitems[".printFields"][] = "tipo_item_id";
+$tdataitems[".printFields"][] = "url_image";
+$tdataitems[".printFields"][] = "ingredientes_principales";
+$tdataitems[".printFields"][] = "detalle";
 
 
 //	id

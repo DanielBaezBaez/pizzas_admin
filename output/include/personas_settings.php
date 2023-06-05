@@ -307,7 +307,6 @@ $tdatapersonas[".listFields"][] = "cedula";
 $tdatapersonas[".listFields"][] = "direccion";
 $tdatapersonas[".listFields"][] = "email";
 $tdatapersonas[".listFields"][] = "creado_por";
-$tdatapersonas[".listFields"][] = "empresa_id";
 $tdatapersonas[".listFields"][] = "actualizado_por";
 $tdatapersonas[".listFields"][] = "creado";
 $tdatapersonas[".listFields"][] = "actualizado";
@@ -1441,8 +1440,7 @@ $tdatapersonas[".printFields"][] = "email";
 	
 	
 			
-		$fdata["bListPage"] = true;
-
+	
 	
 	
 	
@@ -1460,8 +1458,7 @@ $tdatapersonas[".printFields"][] = "email";
 
 	
 	
-				$fdata["FieldPermissions"] = true;
-
+			
 				$fdata["UploadFolder"] = "files";
 
 //  Begin View Formats

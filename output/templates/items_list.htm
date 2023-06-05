@@ -480,8 +480,18 @@
 		<a>
 		  <div class="checkbox">
 			<label>
-			  <input type="checkbox" id="hide_ingredientes_principales" checked="checked" value="1" data-field="ingredientes_principales">
-			  <span>{$label items ingredientes_principales}</span>
+			  <input type="checkbox" id="hide_costo" checked="checked" value="1" data-field="costo">
+			  <span>{$label items costo}</span>
+			</label>
+		</div>
+		</a>
+		</li>
+		<li>
+		<a>
+		  <div class="checkbox">
+			<label>
+			  <input type="checkbox" id="hide_tipo_item_id" checked="checked" value="1" data-field="tipo_item_id">
+			  <span>{$label items tipo_item_id}</span>
 			</label>
 		</div>
 		</a>
@@ -500,8 +510,8 @@
 		<a>
 		  <div class="checkbox">
 			<label>
-			  <input type="checkbox" id="hide_costo" checked="checked" value="1" data-field="costo">
-			  <span>{$label items costo}</span>
+			  <input type="checkbox" id="hide_ingredientes_principales" checked="checked" value="1" data-field="ingredientes_principales">
+			  <span>{$label items ingredientes_principales}</span>
 			</label>
 		</div>
 		</a>
@@ -512,16 +522,6 @@
 			<label>
 			  <input type="checkbox" id="hide_detalle" checked="checked" value="1" data-field="detalle">
 			  <span>{$label items detalle}</span>
-			</label>
-		</div>
-		</a>
-		</li>
-		<li>
-		<a>
-		  <div class="checkbox">
-			<label>
-			  <input type="checkbox" id="hide_tipo_item_id" checked="checked" value="1" data-field="tipo_item_id">
-			  <span>{$label items tipo_item_id}</span>
 			</label>
 		</div>
 		</a>
@@ -711,15 +711,28 @@
 									
 									
 									
-									{BEGIN ingredientes_principales_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$ingredientes_principales_class}" data-field=ingredientes_principales>
-									{BEGIN ingredientes_principales_fieldheader}
-																				<span {$ingredientes_principales_orderlinkattrs}>
-											{$label items ingredientes_principales}
+									{BEGIN costo_fieldheadercolumn}
+									<th class="rnr-gridfieldlabel {$costo_class}" data-field=costo>
+									{BEGIN costo_fieldheader}
+																				<span {$costo_orderlinkattrs}>
+											{$label items costo}
 										</span>
-									{END ingredientes_principales_fieldheader}
+									{END costo_fieldheader}
 									</th>
-									{END ingredientes_principales_fieldheadercolumn}
+									{END costo_fieldheadercolumn}
+									
+									
+									
+									
+									{BEGIN tipo_item_id_fieldheadercolumn}
+									<th class="rnr-gridfieldlabel {$tipo_item_id_class}" data-field=tipo_item_id>
+									{BEGIN tipo_item_id_fieldheader}
+																				<span {$tipo_item_id_orderlinkattrs}>
+											{$label items tipo_item_id}
+										</span>
+									{END tipo_item_id_fieldheader}
+									</th>
+									{END tipo_item_id_fieldheadercolumn}
 									
 									
 									
@@ -737,15 +750,15 @@
 									
 									
 									
-									{BEGIN costo_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$costo_class}" data-field=costo>
-									{BEGIN costo_fieldheader}
-																				<span {$costo_orderlinkattrs}>
-											{$label items costo}
+									{BEGIN ingredientes_principales_fieldheadercolumn}
+									<th class="rnr-gridfieldlabel {$ingredientes_principales_class}" data-field=ingredientes_principales>
+									{BEGIN ingredientes_principales_fieldheader}
+																				<span {$ingredientes_principales_orderlinkattrs}>
+											{$label items ingredientes_principales}
 										</span>
-									{END costo_fieldheader}
+									{END ingredientes_principales_fieldheader}
 									</th>
-									{END costo_fieldheadercolumn}
+									{END ingredientes_principales_fieldheadercolumn}
 									
 									
 									
@@ -759,19 +772,6 @@
 									{END detalle_fieldheader}
 									</th>
 									{END detalle_fieldheadercolumn}
-									
-									
-									
-									
-									{BEGIN tipo_item_id_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$tipo_item_id_class}" data-field=tipo_item_id>
-									{BEGIN tipo_item_id_fieldheader}
-																				<span {$tipo_item_id_orderlinkattrs}>
-											{$label items tipo_item_id}
-										</span>
-									{END tipo_item_id_fieldheader}
-									</th>
-									{END tipo_item_id_fieldheadercolumn}
 									
 									
 									
@@ -897,11 +897,18 @@
 {END descripcion_fieldcolumn}
 
 
-	{BEGIN ingredientes_principales_fieldcolumn}
-	<td class="bs-gridcell {$ingredientes_principales_class}"  data-field=ingredientes_principales {$rowstyle} {$recordattrs}>
-		{$ingredientes_principales_value}
+	{BEGIN costo_fieldcolumn}
+	<td class="bs-gridcell {$costo_class}"  data-field=costo {$rowstyle} {$recordattrs}>
+		{$costo_value}
 	</td>
-{END ingredientes_principales_fieldcolumn}
+{END costo_fieldcolumn}
+
+
+	{BEGIN tipo_item_id_fieldcolumn}
+	<td class="bs-gridcell {$tipo_item_id_class}"  data-field=tipo_item_id {$rowstyle} {$recordattrs}>
+		{$tipo_item_id_value}
+	</td>
+{END tipo_item_id_fieldcolumn}
 
 
 	{BEGIN url_image_fieldcolumn}
@@ -911,11 +918,11 @@
 {END url_image_fieldcolumn}
 
 
-	{BEGIN costo_fieldcolumn}
-	<td class="bs-gridcell {$costo_class}"  data-field=costo {$rowstyle} {$recordattrs}>
-		{$costo_value}
+	{BEGIN ingredientes_principales_fieldcolumn}
+	<td class="bs-gridcell {$ingredientes_principales_class}"  data-field=ingredientes_principales {$rowstyle} {$recordattrs}>
+		{$ingredientes_principales_value}
 	</td>
-{END costo_fieldcolumn}
+{END ingredientes_principales_fieldcolumn}
 
 
 	{BEGIN detalle_fieldcolumn}
@@ -923,13 +930,6 @@
 		{$detalle_value}
 	</td>
 {END detalle_fieldcolumn}
-
-
-	{BEGIN tipo_item_id_fieldcolumn}
-	<td class="bs-gridcell {$tipo_item_id_class}"  data-field=tipo_item_id {$rowstyle} {$recordattrs}>
-		{$tipo_item_id_value}
-	</td>
-{END tipo_item_id_fieldcolumn}
 
 
 	{BEGIN creado_por_fieldcolumn}

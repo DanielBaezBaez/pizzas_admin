@@ -22,7 +22,7 @@ if( !Security::processPageSecurity( $strtablename, 'P' ) )
 
 $layout = new TLayout("print_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "menus_print";
 $layout->blocks["top"] = array();
 $layout->containers["pdf"] = array();
@@ -70,7 +70,7 @@ $page_layouts["menus_print"] = $layout;
 
 $layout = new TLayout("masterprint_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "users_masterprint";
 $layout->blocks["bare"] = array();
 $layout->containers["column"] = array();

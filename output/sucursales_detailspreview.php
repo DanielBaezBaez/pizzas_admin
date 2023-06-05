@@ -31,7 +31,7 @@ $xt = new Xtempl();
 
 $layout = new TLayout("detailspreview_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "sucursales_detailspreview";
 $layout->blocks["bare"] = array();
 $layout->containers["dcount"] = array();
@@ -209,6 +209,66 @@ if($rowcount)
 			if($format==FORMAT_NUMBER || IsNumberType($pSet->getFieldType("correo")))
 				$class = ' rnr-field-number';
 			$row["correo_class"] = $class;
+	//	creado_por - 
+			$viewContainer->recId = $recordsCounter;
+		    $value = $viewContainer->showDBValue("creado_por", $data, $keylink);
+			$row["creado_por_value"] = $value;
+			$format = $pSet->getViewFormat("creado_por");
+			$class = "rnr-field-text";
+			if($format==FORMAT_FILE) 
+				$class = ' rnr-field-file'; 
+			if($format==FORMAT_AUDIO)
+				$class = ' rnr-field-audio';
+			if($format==FORMAT_CHECKBOX)
+				$class = ' rnr-field-checkbox';
+			if($format==FORMAT_NUMBER || IsNumberType($pSet->getFieldType("creado_por")))
+				$class = ' rnr-field-number';
+			$row["creado_por_class"] = $class;
+	//	actualizado_por - 
+			$viewContainer->recId = $recordsCounter;
+		    $value = $viewContainer->showDBValue("actualizado_por", $data, $keylink);
+			$row["actualizado_por_value"] = $value;
+			$format = $pSet->getViewFormat("actualizado_por");
+			$class = "rnr-field-text";
+			if($format==FORMAT_FILE) 
+				$class = ' rnr-field-file'; 
+			if($format==FORMAT_AUDIO)
+				$class = ' rnr-field-audio';
+			if($format==FORMAT_CHECKBOX)
+				$class = ' rnr-field-checkbox';
+			if($format==FORMAT_NUMBER || IsNumberType($pSet->getFieldType("actualizado_por")))
+				$class = ' rnr-field-number';
+			$row["actualizado_por_class"] = $class;
+	//	creado - Short Date
+			$viewContainer->recId = $recordsCounter;
+		    $value = $viewContainer->showDBValue("creado", $data, $keylink);
+			$row["creado_value"] = $value;
+			$format = $pSet->getViewFormat("creado");
+			$class = "rnr-field-text";
+			if($format==FORMAT_FILE) 
+				$class = ' rnr-field-file'; 
+			if($format==FORMAT_AUDIO)
+				$class = ' rnr-field-audio';
+			if($format==FORMAT_CHECKBOX)
+				$class = ' rnr-field-checkbox';
+			if($format==FORMAT_NUMBER || IsNumberType($pSet->getFieldType("creado")))
+				$class = ' rnr-field-number';
+			$row["creado_class"] = $class;
+	//	actualizado - Short Date
+			$viewContainer->recId = $recordsCounter;
+		    $value = $viewContainer->showDBValue("actualizado", $data, $keylink);
+			$row["actualizado_value"] = $value;
+			$format = $pSet->getViewFormat("actualizado");
+			$class = "rnr-field-text";
+			if($format==FORMAT_FILE) 
+				$class = ' rnr-field-file'; 
+			if($format==FORMAT_AUDIO)
+				$class = ' rnr-field-audio';
+			if($format==FORMAT_CHECKBOX)
+				$class = ' rnr-field-checkbox';
+			if($format==FORMAT_NUMBER || IsNumberType($pSet->getFieldType("actualizado")))
+				$class = ' rnr-field-number';
+			$row["actualizado_class"] = $class;
 		$rowinfo[] = $row;
 		if ($b) {
 			$rowinfo2[] = $row;

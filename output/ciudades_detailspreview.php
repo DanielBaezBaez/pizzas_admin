@@ -31,7 +31,7 @@ $xt = new Xtempl();
 
 $layout = new TLayout("detailspreview_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "ciudades_detailspreview";
 $layout->blocks["bare"] = array();
 $layout->containers["dcount"] = array();
@@ -149,21 +149,6 @@ if($rowcount)
 		$keylink.="&key1=".runner_htmlspecialchars(rawurlencode(@$data["id"]));
 	
 	
-	//	id - 
-			$viewContainer->recId = $recordsCounter;
-		    $value = $viewContainer->showDBValue("id", $data, $keylink);
-			$row["id_value"] = $value;
-			$format = $pSet->getViewFormat("id");
-			$class = "rnr-field-text";
-			if($format==FORMAT_FILE) 
-				$class = ' rnr-field-file'; 
-			if($format==FORMAT_AUDIO)
-				$class = ' rnr-field-audio';
-			if($format==FORMAT_CHECKBOX)
-				$class = ' rnr-field-checkbox';
-			if($format==FORMAT_NUMBER || IsNumberType($pSet->getFieldType("id")))
-				$class = ' rnr-field-number';
-			$row["id_class"] = $class;
 	//	descripcion - 
 			$viewContainer->recId = $recordsCounter;
 		    $value = $viewContainer->showDBValue("descripcion", $data, $keylink);
@@ -179,21 +164,6 @@ if($rowcount)
 			if($format==FORMAT_NUMBER || IsNumberType($pSet->getFieldType("descripcion")))
 				$class = ' rnr-field-number';
 			$row["descripcion_class"] = $class;
-	//	empresa_id - 
-			$viewContainer->recId = $recordsCounter;
-		    $value = $viewContainer->showDBValue("empresa_id", $data, $keylink);
-			$row["empresa_id_value"] = $value;
-			$format = $pSet->getViewFormat("empresa_id");
-			$class = "rnr-field-text";
-			if($format==FORMAT_FILE) 
-				$class = ' rnr-field-file'; 
-			if($format==FORMAT_AUDIO)
-				$class = ' rnr-field-audio';
-			if($format==FORMAT_CHECKBOX)
-				$class = ' rnr-field-checkbox';
-			if($format==FORMAT_NUMBER || IsNumberType($pSet->getFieldType("empresa_id")))
-				$class = ' rnr-field-number';
-			$row["empresa_id_class"] = $class;
 	//	creado_por - 
 			$viewContainer->recId = $recordsCounter;
 		    $value = $viewContainer->showDBValue("creado_por", $data, $keylink);

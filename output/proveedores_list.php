@@ -29,7 +29,7 @@ if( ListPage::processSaveParams( $strTableName ) )
 
 $layout = new TLayout("list_bootstrap1", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "proveedores_list";
 $layout->blocks["center"] = array();
 $layout->containers["gridcontrols"] = array();
@@ -208,7 +208,7 @@ $page_layouts["proveedores_list"] = $layout;
 
 $layout = new TLayout("masterlist_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "empresas_masterlist";
 $layout->blocks["bare"] = array();
 $layout->containers["column"] = array();
@@ -237,7 +237,7 @@ $page_layouts["empresas_masterlist"] = $layout;
 
 $layout = new TLayout("masterlist_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "personas_masterlist";
 $layout->blocks["bare"] = array();
 $layout->containers["column"] = array();
@@ -266,7 +266,7 @@ $page_layouts["personas_masterlist"] = $layout;
 
 $layout = new TLayout("masterlist_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "users_masterlist";
 $layout->blocks["bare"] = array();
 $layout->containers["column"] = array();

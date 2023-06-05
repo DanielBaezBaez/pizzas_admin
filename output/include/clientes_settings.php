@@ -26,10 +26,10 @@ if(mlang_getcurrentlang()=="Spanish")
 	$fieldLabelsclientes["Spanish"]["id"] = "Id";
 	$fieldToolTipsclientes["Spanish"]["id"] = "";
 	$placeHoldersclientes["Spanish"]["id"] = "";
-	$fieldLabelsclientes["Spanish"]["persona_id"] = "Persona Id";
+	$fieldLabelsclientes["Spanish"]["persona_id"] = "Persona";
 	$fieldToolTipsclientes["Spanish"]["persona_id"] = "";
 	$placeHoldersclientes["Spanish"]["persona_id"] = "";
-	$fieldLabelsclientes["Spanish"]["empresa_id"] = "Empresa Id";
+	$fieldLabelsclientes["Spanish"]["empresa_id"] = "Empresa";
 	$fieldToolTipsclientes["Spanish"]["empresa_id"] = "";
 	$placeHoldersclientes["Spanish"]["empresa_id"] = "";
 	$fieldLabelsclientes["Spanish"]["creado_por"] = "Creado Por";
@@ -167,13 +167,7 @@ $tdataclientes[".allSearchFields"] = array();
 $tdataclientes[".filterFields"] = array();
 $tdataclientes[".requiredSearchFields"] = array();
 
-$tdataclientes[".allSearchFields"][] = "id";
-	$tdataclientes[".allSearchFields"][] = "persona_id";
-	$tdataclientes[".allSearchFields"][] = "empresa_id";
-	$tdataclientes[".allSearchFields"][] = "creado_por";
-	$tdataclientes[".allSearchFields"][] = "actualizado_por";
-	$tdataclientes[".allSearchFields"][] = "creado";
-	$tdataclientes[".allSearchFields"][] = "actualizado";
+$tdataclientes[".allSearchFields"][] = "persona_id";
 	
 
 $tdataclientes[".googleLikeFields"] = array();
@@ -187,13 +181,7 @@ $tdataclientes[".googleLikeFields"][] = "actualizado";
 
 
 $tdataclientes[".advSearchFields"] = array();
-$tdataclientes[".advSearchFields"][] = "id";
 $tdataclientes[".advSearchFields"][] = "persona_id";
-$tdataclientes[".advSearchFields"][] = "empresa_id";
-$tdataclientes[".advSearchFields"][] = "creado_por";
-$tdataclientes[".advSearchFields"][] = "actualizado_por";
-$tdataclientes[".advSearchFields"][] = "creado";
-$tdataclientes[".advSearchFields"][] = "actualizado";
 
 $tdataclientes[".tableType"] = "list";
 
@@ -282,9 +270,7 @@ $tableKeysclientes[] = "id";
 $tdataclientes[".Keys"] = $tableKeysclientes;
 
 $tdataclientes[".listFields"] = array();
-$tdataclientes[".listFields"][] = "id";
 $tdataclientes[".listFields"][] = "persona_id";
-$tdataclientes[".listFields"][] = "empresa_id";
 $tdataclientes[".listFields"][] = "creado_por";
 $tdataclientes[".listFields"][] = "actualizado_por";
 $tdataclientes[".listFields"][] = "creado";
@@ -294,20 +280,10 @@ $tdataclientes[".hideMobileList"] = array();
 
 
 $tdataclientes[".viewFields"] = array();
-$tdataclientes[".viewFields"][] = "id";
 $tdataclientes[".viewFields"][] = "persona_id";
-$tdataclientes[".viewFields"][] = "empresa_id";
-$tdataclientes[".viewFields"][] = "creado_por";
-$tdataclientes[".viewFields"][] = "actualizado_por";
-$tdataclientes[".viewFields"][] = "creado";
-$tdataclientes[".viewFields"][] = "actualizado";
 
 $tdataclientes[".addFields"] = array();
 $tdataclientes[".addFields"][] = "persona_id";
-$tdataclientes[".addFields"][] = "creado_por";
-$tdataclientes[".addFields"][] = "actualizado_por";
-$tdataclientes[".addFields"][] = "creado";
-$tdataclientes[".addFields"][] = "actualizado";
 
 $tdataclientes[".masterListFields"] = array();
 $tdataclientes[".masterListFields"][] = "id";
@@ -322,49 +298,21 @@ $tdataclientes[".inlineAddFields"] = array();
 
 $tdataclientes[".editFields"] = array();
 $tdataclientes[".editFields"][] = "persona_id";
-$tdataclientes[".editFields"][] = "empresa_id";
-$tdataclientes[".editFields"][] = "creado_por";
-$tdataclientes[".editFields"][] = "actualizado_por";
-$tdataclientes[".editFields"][] = "creado";
-$tdataclientes[".editFields"][] = "actualizado";
 
 $tdataclientes[".inlineEditFields"] = array();
 
 $tdataclientes[".updateSelectedFields"] = array();
 $tdataclientes[".updateSelectedFields"][] = "persona_id";
-$tdataclientes[".updateSelectedFields"][] = "empresa_id";
-$tdataclientes[".updateSelectedFields"][] = "creado_por";
-$tdataclientes[".updateSelectedFields"][] = "actualizado_por";
-$tdataclientes[".updateSelectedFields"][] = "creado";
-$tdataclientes[".updateSelectedFields"][] = "actualizado";
 
 
 $tdataclientes[".exportFields"] = array();
-$tdataclientes[".exportFields"][] = "id";
 $tdataclientes[".exportFields"][] = "persona_id";
-$tdataclientes[".exportFields"][] = "empresa_id";
-$tdataclientes[".exportFields"][] = "creado_por";
-$tdataclientes[".exportFields"][] = "actualizado_por";
-$tdataclientes[".exportFields"][] = "creado";
-$tdataclientes[".exportFields"][] = "actualizado";
 
 $tdataclientes[".importFields"] = array();
-$tdataclientes[".importFields"][] = "id";
 $tdataclientes[".importFields"][] = "persona_id";
-$tdataclientes[".importFields"][] = "empresa_id";
-$tdataclientes[".importFields"][] = "creado_por";
-$tdataclientes[".importFields"][] = "actualizado_por";
-$tdataclientes[".importFields"][] = "creado";
-$tdataclientes[".importFields"][] = "actualizado";
 
 $tdataclientes[".printFields"] = array();
-$tdataclientes[".printFields"][] = "id";
 $tdataclientes[".printFields"][] = "persona_id";
-$tdataclientes[".printFields"][] = "empresa_id";
-$tdataclientes[".printFields"][] = "creado_por";
-$tdataclientes[".printFields"][] = "actualizado_por";
-$tdataclientes[".printFields"][] = "creado";
-$tdataclientes[".printFields"][] = "actualizado";
 
 
 //	id
@@ -382,22 +330,17 @@ $tdataclientes[".printFields"][] = "actualizado";
 
 	
 			
-		$fdata["bListPage"] = true;
-
 	
 	
 	
 	
 	
+	
 
-		$fdata["bViewPage"] = true;
-
-		$fdata["bAdvancedSearch"] = true;
-
-		$fdata["bPrinterPage"] = true;
-
-		$fdata["bExportPage"] = true;
-
+	
+	
+	
+	
 		$fdata["strField"] = "id";
 
 		$fdata["isSQLExpression"] = true;
@@ -405,8 +348,7 @@ $tdataclientes[".printFields"][] = "actualizado";
 
 	
 	
-				$fdata["FieldPermissions"] = true;
-
+			
 				$fdata["UploadFolder"] = "files";
 
 //  Begin View Formats
@@ -486,12 +428,6 @@ $tdataclientes[".printFields"][] = "actualizado";
 
 
 
-// the field's search options settings
-		$fdata["defaultSearchOption"] = "Contains";
-
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Starts with", "More than", "Less than", "Between", "Empty", NOT_EMPTY);
-// the end of search options settings
 
 
 
@@ -668,24 +604,17 @@ $tdataclientes[".printFields"][] = "actualizado";
 	
 	
 			
-		$fdata["bListPage"] = true;
+	
+	
+	
+	
+	
+	
 
 	
 	
-		$fdata["bEditPage"] = true;
-
 	
-		$fdata["bUpdateSelected"] = true;
-
-
-		$fdata["bViewPage"] = true;
-
-		$fdata["bAdvancedSearch"] = true;
-
-		$fdata["bPrinterPage"] = true;
-
-		$fdata["bExportPage"] = true;
-
+	
 		$fdata["strField"] = "empresa_id";
 
 		$fdata["isSQLExpression"] = true;
@@ -693,8 +622,7 @@ $tdataclientes[".printFields"][] = "actualizado";
 
 	
 	
-				$fdata["FieldPermissions"] = true;
-
+			
 				$fdata["UploadFolder"] = "files";
 
 //  Begin View Formats
@@ -799,12 +727,6 @@ $tdataclientes[".printFields"][] = "actualizado";
 
 
 
-// the field's search options settings
-		$fdata["defaultSearchOption"] = "Equals";
-
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Starts with", "More than", "Less than", "Between", "Empty", NOT_EMPTY);
-// the end of search options settings
 
 
 
@@ -826,23 +748,16 @@ $tdataclientes[".printFields"][] = "actualizado";
 			
 		$fdata["bListPage"] = true;
 
-		$fdata["bAddPage"] = true;
+	
+	
+	
+	
+	
 
 	
-		$fdata["bEditPage"] = true;
-
 	
-		$fdata["bUpdateSelected"] = true;
-
-
-		$fdata["bViewPage"] = true;
-
-		$fdata["bAdvancedSearch"] = true;
-
-		$fdata["bPrinterPage"] = true;
-
-		$fdata["bExportPage"] = true;
-
+	
+	
 		$fdata["strField"] = "creado_por";
 
 		$fdata["isSQLExpression"] = true;
@@ -956,12 +871,6 @@ $tdataclientes[".printFields"][] = "actualizado";
 
 
 
-// the field's search options settings
-		$fdata["defaultSearchOption"] = "Equals";
-
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Starts with", "More than", "Less than", "Between", "Empty", NOT_EMPTY);
-// the end of search options settings
 
 
 
@@ -983,23 +892,16 @@ $tdataclientes[".printFields"][] = "actualizado";
 			
 		$fdata["bListPage"] = true;
 
-		$fdata["bAddPage"] = true;
+	
+	
+	
+	
+	
 
 	
-		$fdata["bEditPage"] = true;
-
 	
-		$fdata["bUpdateSelected"] = true;
-
-
-		$fdata["bViewPage"] = true;
-
-		$fdata["bAdvancedSearch"] = true;
-
-		$fdata["bPrinterPage"] = true;
-
-		$fdata["bExportPage"] = true;
-
+	
+	
 		$fdata["strField"] = "actualizado_por";
 
 		$fdata["isSQLExpression"] = true;
@@ -1111,12 +1013,6 @@ $tdataclientes[".printFields"][] = "actualizado";
 
 
 
-// the field's search options settings
-		$fdata["defaultSearchOption"] = "Equals";
-
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Starts with", "More than", "Less than", "Between", "Empty", NOT_EMPTY);
-// the end of search options settings
 
 
 
@@ -1138,23 +1034,16 @@ $tdataclientes[".printFields"][] = "actualizado";
 			
 		$fdata["bListPage"] = true;
 
-		$fdata["bAddPage"] = true;
+	
+	
+	
+	
+	
 
 	
-		$fdata["bEditPage"] = true;
-
 	
-		$fdata["bUpdateSelected"] = true;
-
-
-		$fdata["bViewPage"] = true;
-
-		$fdata["bAdvancedSearch"] = true;
-
-		$fdata["bPrinterPage"] = true;
-
-		$fdata["bExportPage"] = true;
-
+	
+	
 		$fdata["strField"] = "creado";
 
 		$fdata["isSQLExpression"] = true;
@@ -1242,12 +1131,6 @@ $tdataclientes[".printFields"][] = "actualizado";
 
 
 
-// the field's search options settings
-		$fdata["defaultSearchOption"] = "Equals";
-
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between", EMPTY_SEARCH, NOT_EMPTY );
-// the end of search options settings
 
 
 
@@ -1269,23 +1152,16 @@ $tdataclientes[".printFields"][] = "actualizado";
 			
 		$fdata["bListPage"] = true;
 
-		$fdata["bAddPage"] = true;
+	
+	
+	
+	
+	
 
 	
-		$fdata["bEditPage"] = true;
-
 	
-		$fdata["bUpdateSelected"] = true;
-
-
-		$fdata["bViewPage"] = true;
-
-		$fdata["bAdvancedSearch"] = true;
-
-		$fdata["bPrinterPage"] = true;
-
-		$fdata["bExportPage"] = true;
-
+	
+	
 		$fdata["strField"] = "actualizado";
 
 		$fdata["isSQLExpression"] = true;
@@ -1373,12 +1249,6 @@ $tdataclientes[".printFields"][] = "actualizado";
 
 
 
-// the field's search options settings
-		$fdata["defaultSearchOption"] = "Equals";
-
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Equals", "More than", "Less than", "Between", EMPTY_SEARCH, NOT_EMPTY );
-// the end of search options settings
 
 
 

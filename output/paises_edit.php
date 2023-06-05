@@ -23,7 +23,7 @@ EditPage::handleBrokenRequest();
 
 $layout = new TLayout("edit_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "paises_edit";
 $layout->blocks["top"] = array();
 $layout->containers["editpage"] = array();
@@ -100,7 +100,7 @@ $page_layouts["paises_edit"] = $layout;
 
 $layout = new TLayout("list_bootstrap1", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "paises_list";
 $layout->blocks["center"] = array();
 $layout->containers["gridcontrols"] = array();

@@ -38,7 +38,7 @@ if(mlang_getcurrentlang()=="Spanish")
 	$fieldLabelsdetalles_pedidos["Spanish"]["item_id"] = "Item";
 	$fieldToolTipsdetalles_pedidos["Spanish"]["item_id"] = "";
 	$placeHoldersdetalles_pedidos["Spanish"]["item_id"] = "";
-	$fieldLabelsdetalles_pedidos["Spanish"]["empresa_id"] = "Empresa Id";
+	$fieldLabelsdetalles_pedidos["Spanish"]["empresa_id"] = "Empresa";
 	$fieldToolTipsdetalles_pedidos["Spanish"]["empresa_id"] = "";
 	$placeHoldersdetalles_pedidos["Spanish"]["empresa_id"] = "";
 	$fieldLabelsdetalles_pedidos["Spanish"]["creado_por"] = "Creado Por";

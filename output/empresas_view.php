@@ -18,7 +18,7 @@ if( !ViewPage::processEditPageSecurity( $strTableName ) )
 
 $layout = new TLayout("view_bootstrap_2col", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "empresas_view";
 $layout->blocks["top"] = array();
 $layout->containers["viewpage"] = array();

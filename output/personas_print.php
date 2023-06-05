@@ -22,7 +22,7 @@ if( !Security::processPageSecurity( $strtablename, 'P' ) )
 
 $layout = new TLayout("print_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "personas_print";
 $layout->blocks["top"] = array();
 $layout->containers["pdf"] = array();
@@ -70,7 +70,7 @@ $page_layouts["personas_print"] = $layout;
 
 $layout = new TLayout("masterprint_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "empresas_masterprint";
 $layout->blocks["bare"] = array();
 $layout->containers["column"] = array();
@@ -98,7 +98,7 @@ $page_layouts["empresas_masterprint"] = $layout;
 
 $layout = new TLayout("masterprint_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "users_masterprint";
 $layout->blocks["bare"] = array();
 $layout->containers["column"] = array();
@@ -127,7 +127,7 @@ $page_layouts["users_masterprint"] = $layout;
 
 $layout = new TLayout("print_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "clientes_print";
 $layout->blocks["top"] = array();
 $layout->containers["pdf"] = array();
@@ -174,7 +174,7 @@ $page_layouts["clientes_print"] = $layout;
 
 $layout = new TLayout("print_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "personales_print";
 $layout->blocks["top"] = array();
 $layout->containers["pdf"] = array();
@@ -221,7 +221,7 @@ $page_layouts["personales_print"] = $layout;
 
 $layout = new TLayout("print_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "proveedores_print";
 $layout->blocks["top"] = array();
 $layout->containers["pdf"] = array();

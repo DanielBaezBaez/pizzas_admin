@@ -135,6 +135,8 @@ class ChangePasswordPage extends RunnerPage
 	{
 		global $cLoginTable, $cPasswordFieldType;
 		
+		if( !$this->cipherer->isFieldEncrypted( $this->passwordField ) )
+			$newpass = $this->getPasswordHash( $newpass );
 		
 		$passvalue = $this->cipherer->AddDBQuotes( $this->passwordField, $newpass );
 		
@@ -197,6 +199,10 @@ class ChangePasswordPage extends RunnerPage
 		$oldPass = $values["oldpass"];
 		
 		$bcrypted = false;		
+		if( strlen( $oldPass ) && !$this->cipherer->isFieldEncrypted( $this->passwordField ) )
+		{
+				$bcrypted = true;
+		}
 		
 		$sqlWhere = $this->getSQLWhere();
 		$qResult = $this->connection->query( $this->getSelectSQL( $sqlWhere ) );	

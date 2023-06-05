@@ -452,6 +452,8 @@ $twilioAuth = "";
 $twilioNumber = "";
 $globalSettings["bTwoFactorAuth"] = false;
 
+$globalSettings["bEncryptPasswords"] = true;
+$globalSettings["nEncryptPasswordMethod"] = "0";
 
 
 
@@ -486,7 +488,7 @@ $globalSettings["LandingPage"] = "";
 $globalSettings["LandingURL"] = "";
 
 $globalSettings["ProjectLogo"] = array();
-$globalSettings["ProjectLogo"]["Spanish"] = "pizzas_admin";
+$globalSettings["ProjectLogo"]["Spanish"] = "Pizzas Administrador";
 
 $globalSettings["createLoginPage"] = true;
 
@@ -685,7 +687,7 @@ $scriptname = getFileNameFromURL();
 
 $isGroupSecurity = false;
 
-$isUseRTEBasic = false;
+$isUseRTEBasic = true;
 
 $isUseRTECK = false;
 

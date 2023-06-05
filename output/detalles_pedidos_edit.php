@@ -23,7 +23,7 @@ EditPage::handleBrokenRequest();
 
 $layout = new TLayout("edit_bootstrap", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "detalles_pedidos_edit";
 $layout->blocks["top"] = array();
 $layout->containers["editpage"] = array();
@@ -100,7 +100,7 @@ $page_layouts["detalles_pedidos_edit"] = $layout;
 
 $layout = new TLayout("list_bootstrap1", "OfficeOffice", "MobileOffice");
 $layout->version = 3;
-	$layout->bootstrapTheme = "cerulean";
+	$layout->bootstrapTheme = "united";
 		$layout->customCssPageName = "detalles_pedidos_list";
 $layout->blocks["center"] = array();
 $layout->containers["gridcontrols"] = array();

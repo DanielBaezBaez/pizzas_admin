@@ -1,0 +1,5 @@
+[25-May-2023 09:48:52 America/New_York] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[25-May-2023 09:48:52 America/New_York] PHP Fatal error:  Unknown: Failed opening required 'D:/PROYECTOS_PROPIOS/Pizzas/pizzas_admin/output/items_list.php' (include_path='.;C:\php\pear') in Unknown on line 0
+[25-May-2023 11:48:36 America/New_York] PHP Warning:  include(D:\PROYECTOS_PROPIOS\Pizzas\pizzas_admin\output\include\phpfunctions.php): failed to open stream: Permission denied in D:\PROYECTOS_PROPIOS\Pizzas\pizzas_admin\output\include\dbcommon.php on line 36
+[25-May-2023 11:48:36 America/New_York] PHP Warning:  include(): Failed opening 'phpfunctions.php' for inclusion (include_path='.;C:\php\pear') in D:\PROYECTOS_PROPIOS\Pizzas\pizzas_admin\output\include\dbcommon.php on line 36
+[25-May-2023 11:48:36 America/New_York] PHP Fatal error:  Call to undefined function getabspath() in D:\PROYECTOS_PROPIOS\Pizzas\pizzas_admin\output\include\locale.php on line 3

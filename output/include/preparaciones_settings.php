@@ -26,7 +26,7 @@ if(mlang_getcurrentlang()=="Spanish")
 	$fieldLabelspreparaciones["Spanish"]["id"] = "Id";
 	$fieldToolTipspreparaciones["Spanish"]["id"] = "";
 	$placeHolderspreparaciones["Spanish"]["id"] = "";
-	$fieldLabelspreparaciones["Spanish"]["empresa_id"] = "Empresa Id";
+	$fieldLabelspreparaciones["Spanish"]["empresa_id"] = "Empresa";
 	$fieldToolTipspreparaciones["Spanish"]["empresa_id"] = "";
 	$placeHolderspreparaciones["Spanish"]["empresa_id"] = "";
 	$fieldLabelspreparaciones["Spanish"]["creado_por"] = "Creado Por";

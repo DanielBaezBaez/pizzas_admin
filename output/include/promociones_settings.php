@@ -26,7 +26,7 @@ if(mlang_getcurrentlang()=="Spanish")
 	$fieldLabelspromociones["Spanish"]["id"] = "Id";
 	$fieldToolTipspromociones["Spanish"]["id"] = "";
 	$placeHolderspromociones["Spanish"]["id"] = "";
-	$fieldLabelspromociones["Spanish"]["empresa_id"] = "Empresa Id";
+	$fieldLabelspromociones["Spanish"]["empresa_id"] = "Empresa";
 	$fieldToolTipspromociones["Spanish"]["empresa_id"] = "";
 	$placeHolderspromociones["Spanish"]["empresa_id"] = "";
 	$fieldLabelspromociones["Spanish"]["descripcion"] = "Descripcion";
@@ -167,8 +167,7 @@ $tdatapromociones[".allSearchFields"] = array();
 $tdatapromociones[".filterFields"] = array();
 $tdatapromociones[".requiredSearchFields"] = array();
 
-$tdatapromociones[".allSearchFields"][] = "empresa_id";
-	$tdatapromociones[".allSearchFields"][] = "descripcion";
+$tdatapromociones[".allSearchFields"][] = "descripcion";
 	
 
 $tdatapromociones[".googleLikeFields"] = array();
@@ -182,7 +181,6 @@ $tdatapromociones[".googleLikeFields"][] = "actualizado";
 
 
 $tdatapromociones[".advSearchFields"] = array();
-$tdatapromociones[".advSearchFields"][] = "empresa_id";
 $tdatapromociones[".advSearchFields"][] = "descripcion";
 
 $tdatapromociones[".tableType"] = "list";
@@ -272,7 +270,6 @@ $tableKeyspromociones[] = "id";
 $tdatapromociones[".Keys"] = $tableKeyspromociones;
 
 $tdatapromociones[".listFields"] = array();
-$tdatapromociones[".listFields"][] = "empresa_id";
 $tdatapromociones[".listFields"][] = "descripcion";
 $tdatapromociones[".listFields"][] = "creado_por";
 $tdatapromociones[".listFields"][] = "actualizado_por";
@@ -283,7 +280,6 @@ $tdatapromociones[".hideMobileList"] = array();
 
 
 $tdatapromociones[".viewFields"] = array();
-$tdatapromociones[".viewFields"][] = "empresa_id";
 $tdatapromociones[".viewFields"][] = "descripcion";
 
 $tdatapromociones[".addFields"] = array();
@@ -301,26 +297,21 @@ $tdatapromociones[".masterListFields"][] = "actualizado";
 $tdatapromociones[".inlineAddFields"] = array();
 
 $tdatapromociones[".editFields"] = array();
-$tdatapromociones[".editFields"][] = "empresa_id";
 $tdatapromociones[".editFields"][] = "descripcion";
 
 $tdatapromociones[".inlineEditFields"] = array();
 
 $tdatapromociones[".updateSelectedFields"] = array();
-$tdatapromociones[".updateSelectedFields"][] = "empresa_id";
 $tdatapromociones[".updateSelectedFields"][] = "descripcion";
 
 
 $tdatapromociones[".exportFields"] = array();
-$tdatapromociones[".exportFields"][] = "empresa_id";
 $tdatapromociones[".exportFields"][] = "descripcion";
 
 $tdatapromociones[".importFields"] = array();
-$tdatapromociones[".importFields"][] = "empresa_id";
 $tdatapromociones[".importFields"][] = "descripcion";
 
 $tdatapromociones[".printFields"] = array();
-$tdatapromociones[".printFields"][] = "empresa_id";
 $tdatapromociones[".printFields"][] = "descripcion";
 
 
@@ -456,24 +447,17 @@ $tdatapromociones[".printFields"][] = "descripcion";
 	
 	
 			
-		$fdata["bListPage"] = true;
+	
+	
+	
+	
+	
+	
 
 	
 	
-		$fdata["bEditPage"] = true;
-
 	
-		$fdata["bUpdateSelected"] = true;
-
-
-		$fdata["bViewPage"] = true;
-
-		$fdata["bAdvancedSearch"] = true;
-
-		$fdata["bPrinterPage"] = true;
-
-		$fdata["bExportPage"] = true;
-
+	
 		$fdata["strField"] = "empresa_id";
 
 		$fdata["isSQLExpression"] = true;
@@ -481,8 +465,7 @@ $tdatapromociones[".printFields"][] = "descripcion";
 
 	
 	
-				$fdata["FieldPermissions"] = true;
-
+			
 				$fdata["UploadFolder"] = "files";
 
 //  Begin View Formats
@@ -587,12 +570,6 @@ $tdatapromociones[".printFields"][] = "descripcion";
 
 
 
-// the field's search options settings
-		$fdata["defaultSearchOption"] = "Equals";
-
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Starts with", "More than", "Less than", "Between", "Empty", NOT_EMPTY);
-// the end of search options settings
 
 
 
